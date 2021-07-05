@@ -10,3 +10,15 @@ C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC
 C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileInputs.cache
 C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.exe
 C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.pdb
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\bin\Debug\OIC_PBL.exe.config
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\bin\Debug\OIC_PBL.exe
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\bin\Debug\OIC_PBL.pdb
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csprojAssemblyReference.cache
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_1コロナ対応画面1.resources
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.メニュー画面.resources
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.Properties.Resources.resources
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.Form1.resources
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.GenerateResource.cache
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileInputs.cache
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.exe
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.pdb
