@@ -25,8 +25,8 @@ namespace OIC_PBL
             Graphics g = Graphics.FromImage(canvas);
 
             //(10,20)の位置に100x80サイズの黒で塗りつぶされた長方形を描画する
-            g.FillRectangle(Brushes.Black, 100, 20, 100, 80);
-
+            g.FillRectangle(Brushes.WhiteSmoke, 10, 10,300, 160);
+            
             //Graphicsオブジェクトのリソースを解放する
             g.Dispose();
             //PictureBox1に表示する
