@@ -26,3 +26,4 @@ C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileI
 C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.exe
 C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.pdb
 >>>>>>> 5df8c2ce76790a4c63ebc2588d3360d246ead127
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._5_1検索画面.resources
