@@ -28,5 +28,7 @@ namespace OIC_PBL
             _2_5コロナ対応画面3 f1 = new _2_5コロナ対応画面3();
             f1.Show();
         }
+
+       
     }
 }

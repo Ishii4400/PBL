@@ -28,65 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.一般教員用 = new System.Windows.Forms.Button();
+            this.上長用 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.TOP = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // 一般教員用
             // 
-            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.Window;
-            this.button1.Location = new System.Drawing.Point(228, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 102);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.一般教員用.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.一般教員用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.一般教員用.ForeColor = System.Drawing.SystemColors.Window;
+            this.一般教員用.Location = new System.Drawing.Point(89, 123);
+            this.一般教員用.Margin = new System.Windows.Forms.Padding(2);
+            this.一般教員用.Name = "一般教員用";
+            this.一般教員用.Size = new System.Drawing.Size(197, 85);
+            this.一般教員用.TabIndex = 0;
+            this.一般教員用.Text = "一般教員用\r\n\r\n検索・閲覧・編集・評価入力";
+            this.一般教員用.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // 上長用
             // 
-            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.Window;
-            this.button2.Location = new System.Drawing.Point(421, 148);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 102);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.上長用.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.上長用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.上長用.ForeColor = System.Drawing.SystemColors.Window;
+            this.上長用.Location = new System.Drawing.Point(335, 123);
+            this.上長用.Margin = new System.Windows.Forms.Padding(2);
+            this.上長用.Name = "上長用";
+            this.上長用.Size = new System.Drawing.Size(197, 85);
+            this.上長用.TabIndex = 1;
+            this.上長用.Text = "上長用\r\n\r\n合否承認";
+            this.上長用.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(162, 96);
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.pictureBox1.Location = new System.Drawing.Point(56, 96);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(443, 200);
+            this.pictureBox1.Size = new System.Drawing.Size(520, 200);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // TOP
+            // 
+            this.TOP.AutoSize = true;
+            this.TOP.LinkColor = System.Drawing.Color.DeepSkyBlue;
+            this.TOP.Location = new System.Drawing.Point(60, 320);
+            this.TOP.Name = "TOP";
+            this.TOP.Size = new System.Drawing.Size(36, 15);
+            this.TOP.TabIndex = 3;
+            this.TOP.TabStop = true;
+            this.TOP.Text = "TOP";
+            // 
             // メニュー画面
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(640, 375);
+            this.Controls.Add(this.TOP);
+            this.Controls.Add(this.上長用);
+            this.Controls.Add(this.一般教員用);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "メニュー画面";
             this.Text = "メニュー画面";
             this.Load += new System.EventHandler(this.メニュー画面_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button 一般教員用;
+        private System.Windows.Forms.Button 上長用;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel TOP;
     }
 }
