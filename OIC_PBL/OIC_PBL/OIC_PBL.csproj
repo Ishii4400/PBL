@@ -175,6 +175,15 @@
     <EmbeddedResource Include="4メニュー画面.resx">
       <DependentUpon>4メニュー画面.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="8-1教員評価画面.resx">
+      <DependentUpon>8-1教員評価画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8-2評価確認画面.resx">
+      <DependentUpon>8-2評価確認画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="9詳細閲覧画面.resx">
+      <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
