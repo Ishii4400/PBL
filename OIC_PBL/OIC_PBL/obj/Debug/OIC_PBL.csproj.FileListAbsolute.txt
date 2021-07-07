@@ -26,6 +26,7 @@ C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileI
 C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.exe
 C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.pdb
 >>>>>>> 5df8c2ce76790a4c63ebc2588d3360d246ead127
+<<<<<<< HEAD
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csprojAssemblyReference.cache
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_1コロナ対応画面1.resources
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.メニュー画面.resources
@@ -34,3 +35,6 @@ C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.Properties.Resour
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.Form1.resources
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.GenerateResource.cache
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileInputs.cache
+=======
+C:\Users\FMV\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._5_1検索画面.resources
+>>>>>>> 39fbd94e4bb4511b5f0a6996d34a942adf28aadf

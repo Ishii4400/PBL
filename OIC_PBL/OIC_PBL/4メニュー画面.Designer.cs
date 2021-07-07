@@ -63,17 +63,17 @@
             // 
             // pictureBox1
             // 
-<<<<<<< HEAD
+
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.pictureBox1.Location = new System.Drawing.Point(63, 80);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(512, 177);
-=======
+
             this.pictureBox1.Location = new System.Drawing.Point(162, 96);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(443, 200);
->>>>>>> 5df8c2ce76790a4c63ebc2588d3360d246ead127
+
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
