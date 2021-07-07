@@ -32,5 +32,10 @@ namespace OIC_PBL
             //PictureBox1に表示する
             pictureBox1.Image = canvas;
         }
+
+        private void TOP_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }
