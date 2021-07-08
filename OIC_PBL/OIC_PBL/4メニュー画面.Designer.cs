@@ -44,7 +44,7 @@
             this.一般教員用.Location = new System.Drawing.Point(92, 153);
             this.一般教員用.Margin = new System.Windows.Forms.Padding(2);
             this.一般教員用.Name = "一般教員用";
-            this.一般教員用.Size = new System.Drawing.Size(197, 85);
+            this.一般教員用.Size = new System.Drawing.Size(220, 85);
             this.一般教員用.TabIndex = 0;
             this.一般教員用.Text = "一般教員用\r\n\r\n検索・閲覧・編集・評価入力";
             this.一般教員用.UseVisualStyleBackColor = false;
@@ -56,10 +56,10 @@
             this.上長用.FlatAppearance.BorderSize = 0;
             this.上長用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.上長用.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.上長用.Location = new System.Drawing.Point(347, 153);
+            this.上長用.Location = new System.Drawing.Point(327, 153);
             this.上長用.Margin = new System.Windows.Forms.Padding(2);
             this.上長用.Name = "上長用";
-            this.上長用.Size = new System.Drawing.Size(197, 85);
+            this.上長用.Size = new System.Drawing.Size(220, 85);
             this.上長用.TabIndex = 1;
             this.上長用.Text = "上長用\r\n\r\n合否承認";
             this.上長用.UseVisualStyleBackColor = false;
