@@ -66,5 +66,10 @@ namespace OIC_PBL
 
             this.Hide();
         }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
