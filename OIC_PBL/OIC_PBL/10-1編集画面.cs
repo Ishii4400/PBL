@@ -16,5 +16,10 @@ namespace OIC_PBL
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
