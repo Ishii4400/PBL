@@ -63,6 +63,7 @@
             this.上長用.TabIndex = 1;
             this.上長用.Text = "上長用\r\n\r\n合否承認";
             this.上長用.UseVisualStyleBackColor = false;
+            this.上長用.Click += new System.EventHandler(this.上長用_Click);
             // 
             // TOP
             // 

@@ -1,6 +1,6 @@
 ﻿namespace OIC_PBL
 {
-    partial class _6_1上長否承認画面
+    partial class _6_1上長承認画面
     {
         /// <summary>
         /// Required designer variable.
@@ -105,7 +105,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(709, 294);
             this.dataGridView1.TabIndex = 5;
             // 
-            // _6_1上長否承認画面
+            // _6_1上長承認画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,8 +116,8 @@
             this.Controls.Add(this.詳細閲覧);
             this.Controls.Add(this.メニュー);
             this.Controls.Add(this.TOP);
-            this.Name = "_6_1上長否承認画面";
-            this.Text = "_6_1上長否承認画面";
+            this.Name = "_6_1上長承認画面";
+            this.Text = "_6_1上長承認画面";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

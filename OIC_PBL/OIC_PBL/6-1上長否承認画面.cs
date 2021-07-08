@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OIC_PBL
 {
-    public partial class _6_1上長否承認画面 : Form
+    public partial class _6_1上長承認画面 : Form
     {
-        public _6_1上長否承認画面()
+        public _6_1上長承認画面()
         {
             InitializeComponent();
         }

@@ -21,31 +21,31 @@ namespace OIC_PBL
 
         private void メニュー画面_Load(object sender, EventArgs e)
         {
-            //描画先とするImageオブジェクトを作成する
-            Bitmap canvas = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-            //ImageオブジェクトのGraphicsオブジェクトを作成する
-            Graphics g = Graphics.FromImage(canvas);
-
-            //(10,20)の位置に100x80サイズの黒で塗りつぶされた長方形を描画する
-            g.FillRectangle(Brushes.WhiteSmoke, 10, 10,300, 160);
-            
-            //Graphicsオブジェクトのリソースを解放する
-            g.Dispose();
-            //PictureBox1に表示する
-            pictureBox1.Image = canvas;
+           
         }
 
         
 
         private void 一般教員用_Click(object sender, EventArgs e)
         {
+            var _5_1検索画面 = new _5_1検索画面();
+            _5_1検索画面.Show();
 
+            this.Hide();
         }
 
         private void TOP_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
             var form1 = new Form1();
             form1.Show();
+
+            this.Hide();
+        }
+
+        private void 上長用_Click(object sender, EventArgs e)
+        {
+            var _6_1上長承認画面 = new _6_1上長承認画面();
+            _6_1上長承認画面.Show();
 
             this.Hide();
         }
