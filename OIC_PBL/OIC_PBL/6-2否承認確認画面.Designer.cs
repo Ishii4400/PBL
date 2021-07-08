@@ -51,7 +51,7 @@
             this.編集.ForeColor = System.Drawing.SystemColors.Window;
             this.編集.Location = new System.Drawing.Point(497, 341);
             this.編集.Name = "編集";
-            this.編集.Size = new System.Drawing.Size(111, 50);
+            this.編集.Size = new System.Drawing.Size(107, 38);
             this.編集.TabIndex = 1;
             this.編集.Text = "編集";
             this.編集.UseVisualStyleBackColor = false;
@@ -64,7 +64,7 @@
             this.確定.ForeColor = System.Drawing.SystemColors.Window;
             this.確定.Location = new System.Drawing.Point(636, 341);
             this.確定.Name = "確定";
-            this.確定.Size = new System.Drawing.Size(111, 50);
+            this.確定.Size = new System.Drawing.Size(107, 38);
             this.確定.TabIndex = 2;
             this.確定.Text = "確定";
             this.確定.UseVisualStyleBackColor = false;

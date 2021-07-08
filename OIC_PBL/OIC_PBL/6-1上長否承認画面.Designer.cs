@@ -66,9 +66,9 @@
             this.詳細閲覧.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
-            this.詳細閲覧.Location = new System.Drawing.Point(400, 329);
+            this.詳細閲覧.Location = new System.Drawing.Point(401, 339);
             this.詳細閲覧.Name = "詳細閲覧";
-            this.詳細閲覧.Size = new System.Drawing.Size(110, 48);
+            this.詳細閲覧.Size = new System.Drawing.Size(107, 38);
             this.詳細閲覧.TabIndex = 2;
             this.詳細閲覧.Text = "詳細閲覧";
             this.詳細閲覧.UseVisualStyleBackColor = false;
@@ -79,9 +79,9 @@
             this.否認.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.否認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.否認.ForeColor = System.Drawing.SystemColors.Window;
-            this.否認.Location = new System.Drawing.Point(529, 329);
+            this.否認.Location = new System.Drawing.Point(531, 339);
             this.否認.Name = "否認";
-            this.否認.Size = new System.Drawing.Size(110, 48);
+            this.否認.Size = new System.Drawing.Size(107, 38);
             this.否認.TabIndex = 3;
             this.否認.Text = "否認";
             this.否認.UseVisualStyleBackColor = false;
@@ -92,9 +92,9 @@
             this.承認.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.承認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.承認.ForeColor = System.Drawing.SystemColors.Window;
-            this.承認.Location = new System.Drawing.Point(656, 329);
+            this.承認.Location = new System.Drawing.Point(659, 339);
             this.承認.Name = "承認";
-            this.承認.Size = new System.Drawing.Size(110, 48);
+            this.承認.Size = new System.Drawing.Size(107, 38);
             this.承認.TabIndex = 4;
             this.承認.Text = "承認";
             this.承認.UseVisualStyleBackColor = false;

@@ -66,10 +66,11 @@
             // 
             this.エクスポート.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.エクスポート.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.エクスポート.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.エクスポート.ForeColor = System.Drawing.SystemColors.Window;
             this.エクスポート.Location = new System.Drawing.Point(273, 336);
             this.エクスポート.Name = "エクスポート";
-            this.エクスポート.Size = new System.Drawing.Size(114, 51);
+            this.エクスポート.Size = new System.Drawing.Size(107, 38);
             this.エクスポート.TabIndex = 2;
             this.エクスポート.Text = "CSVエクスポート";
             this.エクスポート.UseVisualStyleBackColor = false;
@@ -82,7 +83,7 @@
             this.編集.ForeColor = System.Drawing.SystemColors.Window;
             this.編集.Location = new System.Drawing.Point(403, 336);
             this.編集.Name = "編集";
-            this.編集.Size = new System.Drawing.Size(114, 51);
+            this.編集.Size = new System.Drawing.Size(107, 38);
             this.編集.TabIndex = 3;
             this.編集.Text = "編集";
             this.編集.UseVisualStyleBackColor = false;
@@ -95,7 +96,7 @@
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
             this.詳細閲覧.Location = new System.Drawing.Point(533, 336);
             this.詳細閲覧.Name = "詳細閲覧";
-            this.詳細閲覧.Size = new System.Drawing.Size(114, 51);
+            this.詳細閲覧.Size = new System.Drawing.Size(107, 38);
             this.詳細閲覧.TabIndex = 4;
             this.詳細閲覧.Text = "詳細閲覧";
             this.詳細閲覧.UseVisualStyleBackColor = false;
@@ -108,7 +109,7 @@
             this.評価入力.ForeColor = System.Drawing.SystemColors.Window;
             this.評価入力.Location = new System.Drawing.Point(663, 336);
             this.評価入力.Name = "評価入力";
-            this.評価入力.Size = new System.Drawing.Size(114, 51);
+            this.評価入力.Size = new System.Drawing.Size(107, 38);
             this.評価入力.TabIndex = 5;
             this.評価入力.Text = "評価入力";
             this.評価入力.UseVisualStyleBackColor = false;
