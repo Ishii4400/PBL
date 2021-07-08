@@ -37,7 +37,9 @@
             // 
             // 一般教員用
             // 
+            this.一般教員用.FlatAppearance.BorderSize = 0;
             this.一般教員用.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.一般教員用.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.一般教員用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.一般教員用.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.一般教員用.Location = new System.Drawing.Point(89, 123);
@@ -49,7 +51,8 @@
             this.一般教員用.UseVisualStyleBackColor = false;
             // 
             // 上長用
-            // 
+            //
+            this.上長用.FlatAppearance.BorderSize = 0;
             this.上長用.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.上長用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.上長用.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -63,6 +66,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.FlatAppearance.BorderSize = 0;
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.pictureBox1.Location = new System.Drawing.Point(63, 96);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);

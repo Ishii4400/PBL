@@ -355,6 +355,8 @@
             // 検索
             // 
             this.検索.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.検索.FlatAppearance.BorderSize = 0;
+            this.検索.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.検索.ForeColor = System.Drawing.SystemColors.Window;
             this.検索.Location = new System.Drawing.Point(348, 316);
             this.検索.Name = "検索";
@@ -378,6 +380,8 @@
             // 本日の参加人数
             // 
             this.本日の参加人数.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.本日の参加人数.FlatAppearance.BorderSize = 0;
+            this.本日の参加人数.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.本日の参加人数.ForeColor = System.Drawing.SystemColors.Window;
             this.本日の参加人数.Location = new System.Drawing.Point(607, 381);
             this.本日の参加人数.Name = "本日の参加人数";

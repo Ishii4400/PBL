@@ -15,6 +15,7 @@ namespace OIC_PBL
         public メニュー画面()
         {
             InitializeComponent();
+
         }
 
         private void メニュー画面_Load(object sender, EventArgs e)
