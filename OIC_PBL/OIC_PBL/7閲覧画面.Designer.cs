@@ -48,6 +48,7 @@
             this.TOP.TabIndex = 0;
             this.TOP.TabStop = true;
             this.TOP.Text = "TOP";
+            this.TOP.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.TOP_LinkClicked);
             // 
             // メニュー
             // 
@@ -59,6 +60,7 @@
             this.メニュー.TabIndex = 1;
             this.メニュー.TabStop = true;
             this.メニュー.Text = "メニュー";
+            this.メニュー.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.メニュー_LinkClicked);
             // 
             // エクスポート
             // 
@@ -71,6 +73,7 @@
             this.エクスポート.TabIndex = 2;
             this.エクスポート.Text = "CSVエクスポート";
             this.エクスポート.UseVisualStyleBackColor = false;
+            this.エクスポート.Click += new System.EventHandler(this.エクスポート_Click);
             // 
             // 編集
             // 
@@ -83,6 +86,7 @@
             this.編集.TabIndex = 3;
             this.編集.Text = "編集";
             this.編集.UseVisualStyleBackColor = false;
+            this.編集.Click += new System.EventHandler(this.編集_Click);
             // 
             // 詳細閲覧
             // 
@@ -95,6 +99,7 @@
             this.詳細閲覧.TabIndex = 4;
             this.詳細閲覧.Text = "詳細閲覧";
             this.詳細閲覧.UseVisualStyleBackColor = false;
+            this.詳細閲覧.Click += new System.EventHandler(this.詳細閲覧_Click);
             // 
             // 評価入力
             // 
@@ -107,6 +112,7 @@
             this.評価入力.TabIndex = 5;
             this.評価入力.Text = "評価入力";
             this.評価入力.UseVisualStyleBackColor = false;
+            this.評価入力.Click += new System.EventHandler(this.評価入力_Click);
             // 
             // dataGridView1
             // 
