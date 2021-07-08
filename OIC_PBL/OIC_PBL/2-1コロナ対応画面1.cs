@@ -25,10 +25,14 @@ namespace OIC_PBL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            _2_5コロナ対応画面3 f1 = new _2_5コロナ対応画面3();
-            f1.Show();
+            _2_5コロナ対応画面3 f2 = new _2_5コロナ対応画面3();
+            f2.Show();
         }
 
-       
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form1 f3 = new Form1();
+            f3.Show();
+        }
     }
 }

@@ -169,12 +169,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="10-1編集画面.resx">
-      <DependentUpon>10-1編集画面.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="10-2編集確認画面.resx">
-      <DependentUpon>10-2編集確認画面.cs</DependentUpon>
-    </EmbeddedResource>
     <!-- <<<<<<< HEAD
     <EmbeddedResource Include=".Designer.resx">
       <DependentUpon>.Designer.cs</DependentUpon>
@@ -187,20 +181,14 @@
     <EmbeddedResource Include="2-1コロナ対応画面1.resx">
       <DependentUpon>2-1コロナ対応画面1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="2-4コロナ対応画面2.resx">
+      <DependentUpon>2-4コロナ対応画面2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="4メニュー画面.resx">
       <DependentUpon>4メニュー画面.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="5-1検索画面.resx">
       <DependentUpon>5-1検索画面.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="8-1教員評価画面.resx">
-      <DependentUpon>8-1教員評価画面.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="8-2評価確認画面.resx">
-      <DependentUpon>8-2評価確認画面.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="9詳細閲覧画面.resx">
-      <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
