@@ -31,5 +31,15 @@ namespace OIC_PBL
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //8-1へ遷移（データ保持）
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //7へ遷移
+        }
     }
 }
