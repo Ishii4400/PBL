@@ -28,5 +28,11 @@ namespace OIC_PBL
             _3_1受付画面 f2 = new _3_1受付画面();
             f2.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _2_1コロナ対応画面1 f3 = new _2_1コロナ対応画面1();
+            f3.Show();
+        }
     }
 }

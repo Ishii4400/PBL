@@ -85,6 +85,7 @@
             this.否認.TabIndex = 3;
             this.否認.Text = "否認";
             this.否認.UseVisualStyleBackColor = false;
+            this.否認.Click += new System.EventHandler(this.否認_Click);
             // 
             // 承認
             // 
@@ -97,6 +98,7 @@
             this.承認.TabIndex = 4;
             this.承認.Text = "承認";
             this.承認.UseVisualStyleBackColor = false;
+            this.承認.Click += new System.EventHandler(this.承認_Click);
             // 
             // dataGridView1
             // 

@@ -1,6 +1,6 @@
 ﻿namespace OIC_PBL
 {
-    partial class _6_2否承認確認画面
+    partial class _6_2承認確認画面
     {
         /// <summary>
         /// Required designer variable.
@@ -55,6 +55,7 @@
             this.編集.TabIndex = 1;
             this.編集.Text = "編集";
             this.編集.UseVisualStyleBackColor = false;
+            this.編集.Click += new System.EventHandler(this.編集_Click);
             // 
             // 確定
             // 
@@ -67,6 +68,7 @@
             this.確定.TabIndex = 2;
             this.確定.Text = "確定";
             this.確定.UseVisualStyleBackColor = false;
+            this.確定.Click += new System.EventHandler(this.確定_Click);
             // 
             // dataGridView1
             // 
@@ -78,7 +80,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(665, 261);
             this.dataGridView1.TabIndex = 3;
             // 
-            // _6_2否承認確認画面
+            // _6_2承認確認画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -87,8 +89,8 @@
             this.Controls.Add(this.確定);
             this.Controls.Add(this.編集);
             this.Controls.Add(this.この内容で登録してよろしいですか);
-            this.Name = "_6_2否承認確認画面";
-            this.Text = "_6_2否承認確認画面";
+            this.Name = "_6_2承認確認画面";
+            this.Text = "_6_2承認確認画面";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
