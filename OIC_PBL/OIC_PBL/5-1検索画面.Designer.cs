@@ -289,6 +289,12 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "高校生",
+            "大学生",
+            "高専生",
+            "社会人",
+            "その他"});
             this.comboBox1.Location = new System.Drawing.Point(209, 125);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(193, 23);
@@ -297,6 +303,12 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "１年生",
+            "２年生",
+            "３年生",
+            "４年生",
+            "その他"});
             this.comboBox2.Location = new System.Drawing.Point(209, 233);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(193, 23);
@@ -305,14 +317,51 @@
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "医療福祉事務学科",
+            "診療情報管理士学科",
+            "ホテル・ブライダル学科",
+            "経営アシスト学科",
+            "公務員学科",
+            "公務員速修学科",
+            "保育学科",
+            "情報スペシャリスト学科",
+            "情報システム学科",
+            "ゲームクリエイター学科",
+            "ゲームプログラマー学科",
+            "データマーケター学科",
+            "ネット・動画クリエイター学科",
+            "CGデザイン学科"});
             this.comboBox3.Location = new System.Drawing.Point(553, 95);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(193, 23);
             this.comboBox3.TabIndex = 27;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // comboBox4
             // 
             this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "2",
+            "4",
+            "6",
+            "8",
+            "10",
+            "12",
+            "14",
+            "16",
+            "18",
+            "20",
+            "22",
+            "24",
+            "26",
+            "28",
+            "30",
+            "32",
+            "34",
+            "36",
+            "38",
+            "40"});
             this.comboBox4.Location = new System.Drawing.Point(553, 147);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(109, 23);
@@ -321,6 +370,9 @@
             // comboBox5
             // 
             this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "ショートコース",
+            "フルコース"});
             this.comboBox5.Location = new System.Drawing.Point(553, 120);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(193, 23);
@@ -329,6 +381,31 @@
             // comboBox6
             // 
             this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "2022年度",
+            "2023年度",
+            "2024年度",
+            "2025年度",
+            "2026年度",
+            "2027年度",
+            "2028年度",
+            "2029年度",
+            "2030年度",
+            "2031年度",
+            "2032年度",
+            "2033年度",
+            "2034年度",
+            "2035年度",
+            "2036年度",
+            "2037年度",
+            "2038年度",
+            "2039年度",
+            "2040年度",
+            "2041年度",
+            "2042年度",
+            "2043年度",
+            "2044年度",
+            "2045年度"});
             this.comboBox6.Location = new System.Drawing.Point(553, 175);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(109, 23);
@@ -360,7 +437,7 @@
             this.検索.ForeColor = System.Drawing.SystemColors.Window;
             this.検索.Location = new System.Drawing.Point(348, 316);
             this.検索.Name = "検索";
-            this.検索.Size = new System.Drawing.Size(148, 52);
+            this.検索.Size = new System.Drawing.Size(107, 38);
             this.検索.TabIndex = 33;
             this.検索.Text = "検索";
             this.検索.UseVisualStyleBackColor = false;
@@ -386,9 +463,9 @@
             this.本日の参加人数.ForeColor = System.Drawing.SystemColors.Window;
             this.本日の参加人数.Location = new System.Drawing.Point(607, 381);
             this.本日の参加人数.Name = "本日の参加人数";
-            this.本日の参加人数.Size = new System.Drawing.Size(139, 33);
+            this.本日の参加人数.Size = new System.Drawing.Size(107, 38);
             this.本日の参加人数.TabIndex = 35;
-            this.本日の参加人数.Text = "本日の参加人数";
+            this.本日の参加人数.Text = "本日の\r\n参加人数";
             this.本日の参加人数.UseVisualStyleBackColor = false;
             this.本日の参加人数.Click += new System.EventHandler(this.本日の参加人数_Click);
             // 
