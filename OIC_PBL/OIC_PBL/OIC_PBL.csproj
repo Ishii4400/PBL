@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -169,14 +170,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<!-- <<<<<<< HEAD
+    <!-- <<<<<<< HEAD
     <EmbeddedResource Include=".Designer.resx">
       <DependentUpon>.Designer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="10-1編集画面.resx">
       <DependentUpon>10-1編集画面.cs</DependentUpon>
     </EmbeddedResource> -->
-<!-- =======
+    <!-- =======
 >>>>>>> 5df8c2ce76790a4c63ebc2588d3360d246ead127 -->
     <EmbeddedResource Include="2-1コロナ対応画面1.resx">
       <DependentUpon>2-1コロナ対応画面1.cs</DependentUpon>
@@ -186,6 +187,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="5-1検索画面.resx">
       <DependentUpon>5-1検索画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5-2参加人数集計表.resx">
+      <DependentUpon>5-2参加人数集計表.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6-1上長否承認画面.resx">
+      <DependentUpon>6-1上長否承認画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6-2否承認確認画面.resx">
+      <DependentUpon>6-2否承認確認画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7閲覧画面.resx">
+      <DependentUpon>7閲覧画面.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -199,6 +212,9 @@
     <EmbeddedResource Include="１トップ画面.resx">
       <DependentUpon>１トップ画面.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

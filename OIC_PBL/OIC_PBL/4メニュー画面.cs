@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace OIC_PBL
 {
     public partial class メニュー画面 : Form
@@ -43,7 +44,10 @@ namespace OIC_PBL
 
         private void TOP_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            var form1 = new Form1();
+            form1.Show();
 
+            this.Hide();
         }
     }
 }
