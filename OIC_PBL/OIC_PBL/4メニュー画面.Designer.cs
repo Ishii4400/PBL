@@ -49,6 +49,7 @@
             this.一般教員用.TabIndex = 0;
             this.一般教員用.Text = "一般教員用\r\n\r\n検索・閲覧・編集・評価入力";
             this.一般教員用.UseVisualStyleBackColor = false;
+            this.一般教員用.Click += new System.EventHandler(this.一般教員用_Click);
             // 
             // 上長用
             // 
@@ -84,6 +85,7 @@
             this.TOP.TabIndex = 3;
             this.TOP.TabStop = true;
             this.TOP.Text = "TOP";
+            this.TOP.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.TOP_LinkClicked_1);
             // 
             // メニュー画面
             // 

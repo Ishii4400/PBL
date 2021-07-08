@@ -34,7 +34,14 @@ namespace OIC_PBL
             pictureBox1.Image = canvas;
         }
 
-        private void TOP_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        
+
+        private void 一般教員用_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TOP_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
         }
