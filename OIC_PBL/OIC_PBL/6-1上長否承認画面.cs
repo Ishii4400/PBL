@@ -16,5 +16,29 @@ namespace OIC_PBL
         {
             InitializeComponent();
         }
+
+        private void TOP_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var Form1 = new Form1();
+            Form1.Show();
+
+            this.Hide();
+        }
+
+        private void メニュー_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var メニュー画面1 = newメニュー画面();
+            メニュー画面.Show();
+
+            this.Hide();
+        }
+
+        private void 詳細閲覧_Click(object sender, EventArgs e)
+        {
+            var _9詳細閲覧画面 = new _9詳細閲覧画面();
+            _9詳細閲覧画面.Show();
+
+            this.Hide();
+        }
     }
 }

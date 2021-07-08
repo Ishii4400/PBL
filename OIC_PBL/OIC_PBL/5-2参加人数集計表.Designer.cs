@@ -43,6 +43,7 @@
             this.戻る.TabIndex = 0;
             this.戻る.TabStop = true;
             this.戻る.Text = "戻る";
+            this.戻る.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.戻る_LinkClicked);
             // 
             // dataGridView1
             // 

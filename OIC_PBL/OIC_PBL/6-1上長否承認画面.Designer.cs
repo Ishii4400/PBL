@@ -47,6 +47,7 @@
             this.TOP.TabIndex = 0;
             this.TOP.TabStop = true;
             this.TOP.Text = "TOP";
+            this.TOP.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.TOP_LinkClicked);
             // 
             // メニュー
             // 
@@ -58,6 +59,7 @@
             this.メニュー.TabIndex = 1;
             this.メニュー.TabStop = true;
             this.メニュー.Text = "メニュー";
+            this.メニュー.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.メニュー_LinkClicked);
             // 
             // 詳細閲覧
             // 
@@ -70,6 +72,7 @@
             this.詳細閲覧.TabIndex = 2;
             this.詳細閲覧.Text = "詳細閲覧";
             this.詳細閲覧.UseVisualStyleBackColor = false;
+            this.詳細閲覧.Click += new System.EventHandler(this.詳細閲覧_Click);
             // 
             // 否認
             // 
