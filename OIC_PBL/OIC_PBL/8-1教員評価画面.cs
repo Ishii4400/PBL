@@ -27,11 +27,6 @@ namespace OIC_PBL
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label8_Click(object sender, EventArgs e)
         {
 
@@ -45,6 +40,25 @@ namespace OIC_PBL
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //1へ遷移
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //4へ遷移
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //7へ遷移
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //8-2へ遷移
         }
     }
 }

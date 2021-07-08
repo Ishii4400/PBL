@@ -26,5 +26,20 @@ namespace OIC_PBL
         {
 
         }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _9詳細閲覧画面_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label30_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

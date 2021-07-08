@@ -16,5 +16,23 @@ namespace OIC_PBL
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            _2_5コロナ対応画面3 f1 = new _2_5コロナ対応画面3();
+            f1.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _3_1受付画面 f2 = new _3_1受付画面();
+            f2.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _2_1コロナ対応画面1 f3 = new _2_1コロナ対応画面1();
+            f3.Show();
+        }
     }
 }
