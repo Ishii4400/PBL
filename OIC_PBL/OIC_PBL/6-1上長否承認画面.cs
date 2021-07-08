@@ -27,7 +27,7 @@ namespace OIC_PBL
 
         private void メニュー_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            var メニュー画面1 = newメニュー画面();
+            var メニュー画面 = new メニュー画面();
             メニュー画面.Show();
 
             this.Hide();
@@ -37,6 +37,22 @@ namespace OIC_PBL
         {
             var _9詳細閲覧画面 = new _9詳細閲覧画面();
             _9詳細閲覧画面.Show();
+
+            this.Hide();
+        }
+
+        private void 否認_Click(object sender, EventArgs e)
+        {
+            var _6_2承認確認画面 = new _6_2承認確認画面();
+            _6_2承認確認画面.Show();
+
+            this.Hide();
+        }
+
+        private void 承認_Click(object sender, EventArgs e)
+        {
+            var _6_2承認確認画面 = new _6_2承認確認画面();
+            _6_2承認確認画面.Show();
 
             this.Hide();
         }
