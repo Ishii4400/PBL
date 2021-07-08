@@ -32,9 +32,39 @@ namespace OIC_PBL
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void 検索_Click(object sender, EventArgs e)
         {
 
+            var _7閲覧画面 = new _7閲覧画面();
+            _7閲覧画面.Show();
+
+            this.Hide();
+        }
+
+        private void TOP_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var form1 = new Form1();
+            form1.Show();
+
+            this.Hide();
+        }
+
+        private void メニュー_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            var メニュー画面 = new メニュー画面();
+            メニュー画面.Show();
+
+            this.Hide();
+        }
+
+        private void 本日の参加人数_Click(object sender, EventArgs e)
+        {
+
+            var _5_2参加人数集計表 = new _5_2参加人数集計表();
+            _5_2参加人数集計表.Show();
+
+            this.Hide();
         }
     }
 }

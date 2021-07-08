@@ -364,7 +364,7 @@
             this.検索.TabIndex = 33;
             this.検索.Text = "検索";
             this.検索.UseVisualStyleBackColor = false;
-            this.検索.Click += new System.EventHandler(this.button1_Click);
+            this.検索.Click += new System.EventHandler(this.検索_Click);
             // 
             // メニュー
             // 
@@ -376,6 +376,7 @@
             this.メニュー.TabIndex = 34;
             this.メニュー.TabStop = true;
             this.メニュー.Text = "メニュー";
+            this.メニュー.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.メニュー_LinkClicked);
             // 
             // 本日の参加人数
             // 
@@ -389,6 +390,7 @@
             this.本日の参加人数.TabIndex = 35;
             this.本日の参加人数.Text = "本日の参加人数";
             this.本日の参加人数.UseVisualStyleBackColor = false;
+            this.本日の参加人数.Click += new System.EventHandler(this.本日の参加人数_Click);
             // 
             // TOP
             // 
@@ -400,6 +402,7 @@
             this.TOP.TabIndex = 36;
             this.TOP.TabStop = true;
             this.TOP.Text = "TOP";
+            this.TOP.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.TOP_LinkClicked);
             // 
             // dateTimePicker1
             // 
