@@ -460,6 +460,7 @@
             this.本日の参加人数.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.本日の参加人数.FlatAppearance.BorderSize = 0;
             this.本日の参加人数.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.本日の参加人数.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.本日の参加人数.ForeColor = System.Drawing.SystemColors.Window;
             this.本日の参加人数.Location = new System.Drawing.Point(607, 381);
             this.本日の参加人数.Name = "本日の参加人数";
