@@ -35,11 +35,19 @@ namespace OIC_PBL
         private void button1_Click(object sender, EventArgs e)
         {
             //8-1へ遷移（データ保持）
+            var _8_1教員評価画面 = new _8_1教員評価画面();
+            _8_1教員評価画面.Show();
+
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             //7へ遷移
+            var _7閲覧画面 = new _7閲覧画面();
+            _7閲覧画面.Show();
+
+            this.Hide();
         }
     }
 }
