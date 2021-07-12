@@ -79,27 +79,27 @@
             this.label4.BackColor = System.Drawing.SystemColors.MenuBar;
             this.label4.Location = new System.Drawing.Point(34, 71);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(356, 288);
+            this.label4.Size = new System.Drawing.Size(308, 288);
             this.label4.TabIndex = 3;
-            this.label4.Text = "                              \r\n  　　　　　　　　　　　　　　　　　　　　　　　　          \r\n\r\n\r\n\r\n\r\n\r\n\r" +
-    "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            this.label4.Text = "                      \r\n　　  　　　　　　　　　　　　　　　　　　          \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r" +
+    "\n\r\n\r\n";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label5.Location = new System.Drawing.Point(393, 71);
+            this.label5.Location = new System.Drawing.Point(396, 71);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(375, 288);
+            this.label5.Size = new System.Drawing.Size(335, 288);
             this.label5.TabIndex = 4;
-            this.label5.Text = "           　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            this.label5.Text = "   　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.MenuBar;
             this.label6.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.Location = new System.Drawing.Point(418, 87);
+            this.label6.Location = new System.Drawing.Point(442, 87);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(115, 216);
             this.label6.TabIndex = 5;
@@ -147,7 +147,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.MenuBar;
             this.label8.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label8.Location = new System.Drawing.Point(483, 86);
+            this.label8.Location = new System.Drawing.Point(506, 86);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 216);
             this.label8.TabIndex = 227;
@@ -193,7 +193,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label13.Location = new System.Drawing.Point(516, 87);
+            this.label13.Location = new System.Drawing.Point(539, 87);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(0, 18);
             this.label13.TabIndex = 240;
@@ -202,7 +202,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label14.Location = new System.Drawing.Point(516, 122);
+            this.label14.Location = new System.Drawing.Point(539, 122);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(0, 18);
             this.label14.TabIndex = 241;
@@ -211,7 +211,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label15.Location = new System.Drawing.Point(516, 158);
+            this.label15.Location = new System.Drawing.Point(539, 158);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(0, 18);
             this.label15.TabIndex = 242;
@@ -220,7 +220,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label16.Location = new System.Drawing.Point(516, 195);
+            this.label16.Location = new System.Drawing.Point(539, 195);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(0, 18);
             this.label16.TabIndex = 243;
@@ -229,7 +229,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label17.Location = new System.Drawing.Point(516, 231);
+            this.label17.Location = new System.Drawing.Point(539, 231);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(0, 18);
             this.label17.TabIndex = 244;
@@ -238,7 +238,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label18.Location = new System.Drawing.Point(516, 284);
+            this.label18.Location = new System.Drawing.Point(539, 284);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(0, 18);
             this.label18.TabIndex = 245;
@@ -260,9 +260,9 @@
             this.label20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label20.Location = new System.Drawing.Point(56, 261);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(310, 74);
+            this.label20.Size = new System.Drawing.Size(235, 74);
             this.label20.TabIndex = 247;
-            this.label20.Text = "                                                            \r\n\r\n\r\n\r\n";
+            this.label20.Text = "                                             \r\n\r\n\r\n\r\n";
             // 
             // _8_2評価確認画面
             // 

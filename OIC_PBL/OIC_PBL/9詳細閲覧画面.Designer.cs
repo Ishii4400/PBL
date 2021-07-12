@@ -72,10 +72,10 @@ namespace OIC_PBL
             this.label1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.label1.Location = new System.Drawing.Point(21, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(752, 360);
+            this.label1.Size = new System.Drawing.Size(680, 360);
             this.label1.TabIndex = 0;
-            this.label1.Text = "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r" +
-    "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            this.label1.Text = "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r" +
+    "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
             // linkLabel1
             // 
@@ -154,10 +154,9 @@ namespace OIC_PBL
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Location = new System.Drawing.Point(397, 88);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(360, 272);
+            this.label5.Size = new System.Drawing.Size(260, 272);
             this.label5.TabIndex = 15;
-            this.label5.Text = "                                                                      \r\n\r\n\r\n\r\n\r\n\r" +
-    "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            this.label5.Text = "                                                  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
             // label3
             // 
@@ -288,7 +287,6 @@ namespace OIC_PBL
             this.label30.Size = new System.Drawing.Size(87, 18);
             this.label30.TabIndex = 29;
             this.label30.Text = "参加者No.";
-            
             // 
             // label6
             // 
@@ -462,15 +460,9 @@ namespace OIC_PBL
             this.Controls.Add(this.label1);
             this.Name = "_9詳細閲覧画面";
             this.Text = "_9詳細閲覧画面";
-            this.Load += new System.EventHandler(this._9詳細閲覧画面_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
-        }
-
-        private void _9詳細閲覧画面_Load(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
         }
 
         #endregion

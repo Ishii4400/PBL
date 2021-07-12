@@ -214,10 +214,10 @@
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Location = new System.Drawing.Point(397, 85);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(360, 272);
+            this.label5.Size = new System.Drawing.Size(291, 272);
             this.label5.TabIndex = 38;
-            this.label5.Text = "                                                                      \r\n\r\n\r\n\r\n\r\n\r" +
-    "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            this.label5.Text = "　　　                                                 \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r" +
+    "\n";
             // 
             // label4
             // 
@@ -632,7 +632,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(220, 142);
+            this.comboBox1.Location = new System.Drawing.Point(219, 142);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(143, 26);
             this.comboBox1.TabIndex = 245;
@@ -640,7 +640,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(220, 249);
+            this.comboBox2.Location = new System.Drawing.Point(219, 249);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(143, 26);
             this.comboBox2.TabIndex = 246;
@@ -648,7 +648,7 @@
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(221, 277);
+            this.comboBox3.Location = new System.Drawing.Point(219, 277);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(143, 26);
             this.comboBox3.TabIndex = 247;
