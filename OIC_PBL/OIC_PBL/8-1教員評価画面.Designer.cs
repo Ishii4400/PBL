@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_8_1教員評価画面));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -74,6 +73,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -177,7 +178,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label2.Location = new System.Drawing.Point(575, 293);
+            this.label2.Location = new System.Drawing.Point(574, 303);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 18);
             this.label2.TabIndex = 224;
@@ -222,7 +223,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label4.Location = new System.Drawing.Point(519, 279);
+            this.label4.Location = new System.Drawing.Point(529, 302);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 18);
             this.label4.TabIndex = 233;
@@ -291,9 +292,8 @@
             this.label8.BackColor = System.Drawing.SystemColors.MenuBar;
             this.label8.Location = new System.Drawing.Point(414, 43);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(339, 306);
+            this.label8.Size = new System.Drawing.Size(0, 18);
             this.label8.TabIndex = 20;
-            
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // groupBox2
@@ -488,7 +488,7 @@
             this.groupBox5.Controls.Add(this.radioButton20);
             this.groupBox5.Location = new System.Drawing.Point(532, 218);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(216, 49);
+            this.groupBox5.Size = new System.Drawing.Size(216, 58);
             this.groupBox5.TabIndex = 243;
             this.groupBox5.TabStop = false;
             // 
@@ -590,12 +590,33 @@
             this.label15.TabIndex = 248;
             this.label15.Text = "評価5";
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.label16.Location = new System.Drawing.Point(441, 302);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(77, 18);
+            this.label16.TabIndex = 249;
+            this.label16.Text = "合計　　：";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.label17.Location = new System.Drawing.Point(428, 47);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(320, 306);
+            this.label17.TabIndex = 250;
+            this.label17.Text = "　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
             // _8_1教員評価画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -621,6 +642,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label8);
+            this.Controls.Add(this.label17);
             this.Name = "_8_1教員評価画面";
             this.Text = "_8_1教員評価画面";
             this.Load += new System.EventHandler(this._8_1教員評価画面_Load);
@@ -686,5 +708,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
     }
 }
