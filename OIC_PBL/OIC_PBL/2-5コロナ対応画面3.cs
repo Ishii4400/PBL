@@ -16,5 +16,12 @@ namespace OIC_PBL
         {
             InitializeComponent();
         }
-    }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _2_4コロナ対応画面2 f1 = new _2_4コロナ対応画面2();
+            f1.Show();
+
+        }
+}
 }

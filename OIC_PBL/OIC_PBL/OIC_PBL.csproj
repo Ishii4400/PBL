@@ -187,8 +187,17 @@
     <EmbeddedResource Include="2-1コロナ対応画面1.resx">
       <DependentUpon>2-1コロナ対応画面1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="2-2交通費確認画面1.resx">
+      <DependentUpon>2-2交通費確認画面1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-3交通費確認画面2.resx">
+      <DependentUpon>2-3交通費確認画面2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="2-4コロナ対応画面2.resx">
       <DependentUpon>2-4コロナ対応画面2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-5コロナ対応画面3.resx">
+      <DependentUpon>2-5コロナ対応画面3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="4メニュー画面.resx">
       <DependentUpon>4メニュー画面.cs</DependentUpon>
@@ -196,19 +205,8 @@
     <EmbeddedResource Include="5-1検索画面.resx">
       <DependentUpon>5-1検索画面.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="6-1上長否承認画面.resx">
-      <DependentUpon>6-1上長否承認画面.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="6-2否承認確認画面.resx">
-      <DependentUpon>6-2否承認確認画面.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="7閲覧画面.resx">
-      <DependentUpon>7閲覧画面.cs</DependentUpon>
-=======
     <EmbeddedResource Include="9詳細閲覧画面.resx">
       <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
->>>>>>> 8c891e5abc7d34b90531a9191a47294a5a0a036c
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -16,7 +16,7 @@ namespace OIC_PBL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new _8_1教員評価画面());
+            Application.Run(new _2_2交通費確認画面1());
         }
     }
 }
