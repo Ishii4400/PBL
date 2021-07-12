@@ -32,3 +32,4 @@ C:\Users\81902\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_4コロナ対�
 =======
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._6_2承認確認画面.resources
 >>>>>>> 5865b46ecfdc9be142c7763b831740c8518403e2
+C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_4コロナ対応画面2.resources
