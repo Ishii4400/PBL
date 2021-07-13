@@ -67,12 +67,6 @@
             this.三年生の入試対象年度,
             this.年度});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Window;
-<<<<<<< HEAD
-            this.dataGridView1.Location = new System.Drawing.Point(119, 50);
-=======
-            this.dataGridView1.Location = new System.Drawing.Point(149, 60);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> 071cba11a20cadf0aef243ec0d079c97244a1841
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -181,10 +175,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.戻る);
-<<<<<<< HEAD
-=======
-            this.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> 071cba11a20cadf0aef243ec0d079c97244a1841
             this.Name = "_5_2参加人数集計表";
             this.Text = "_5_2参加人数集計表";
             this.Load += new System.EventHandler(this._5_2参加人数集計表_Load);
