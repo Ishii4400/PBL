@@ -60,4 +60,26 @@ C:\Users\81902\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._9詳細閲覧画
 >>>>>>> 8c891e5abc7d34b90531a9191a47294a5a0a036c
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._10_1編集画面.resources
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._10_2編集確認画面.resources
+<<<<<<< HEAD
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._3_1受付画面.resources
+=======
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\bin\Debug\OIC_PBL.exe.config
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\bin\Debug\OIC_PBL.exe
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\bin\Debug\OIC_PBL.pdb
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csprojAssemblyReference.cache
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._10_1編集画面.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._10_2編集確認画面.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_1コロナ対応画面1.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_2交通費確認画面1.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_3交通費確認画面2.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_4コロナ対応画面2.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_5コロナ対応画面3.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.メニュー画面.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._5_1検索画面.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.Properties.Resources.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.Form1.resources
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.GenerateResource.cache
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileInputs.cache
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.exe
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.pdb
+>>>>>>> 23b277756dd2781559f60dfeeee954c0a00a9ff3

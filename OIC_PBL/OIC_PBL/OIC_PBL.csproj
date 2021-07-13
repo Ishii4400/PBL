@@ -208,7 +208,13 @@
     <EmbeddedResource Include="5-1検索画面.resx">
       <DependentUpon>5-1検索画面.cs</DependentUpon>
     </EmbeddedResource>
-    <!--<<<<<<< HEAD
+<!--<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="5-2参加人数集計表.resx">
+      <DependentUpon>5-2参加人数集計表.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 23b277756dd2781559f60dfeeee954c0a00a9ff3
+    <<<<<<< HEAD
     <EmbeddedResource Include="9詳細閲覧画面.resx">
       <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
     </EmbeddedResource>
