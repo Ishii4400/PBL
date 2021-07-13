@@ -17,9 +17,6 @@ namespace OIC_PBL
         {
             InitializeComponent();
 
-            //フルスクリーン
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void メニュー画面_Load(object sender, EventArgs e)

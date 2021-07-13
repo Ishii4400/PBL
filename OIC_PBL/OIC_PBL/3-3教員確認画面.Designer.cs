@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // _3_3教員確認画面
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "_3_3教員確認画面";
             this.Text = "_3_3教員確認画面";
-            this.Load += new System.EventHandler(this._3_3教員確認画面_Load);
-            this.ResumeLayout(false);
-
         }
 
         #endregion

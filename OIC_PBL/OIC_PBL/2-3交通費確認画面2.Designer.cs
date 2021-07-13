@@ -80,7 +80,6 @@
             this.Controls.Add(this.label1);
             this.Name = "_2_3交通費確認画面2";
             this.Text = "_2_3交通費確認画面2";
-            this.Load += new System.EventHandler(this._2_3交通費確認画面2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

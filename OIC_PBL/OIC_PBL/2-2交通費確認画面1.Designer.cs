@@ -195,7 +195,6 @@
             this.Controls.Add(this.label1);
             this.Name = "_2_2交通費確認画面1";
             this.Text = "_2_2交通費確認画面1";
-            this.Load += new System.EventHandler(this._2_2交通費確認画面1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

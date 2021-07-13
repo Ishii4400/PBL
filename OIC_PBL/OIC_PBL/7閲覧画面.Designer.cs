@@ -75,7 +75,12 @@
             this.エクスポート.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.エクスポート.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.エクスポート.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
             this.エクスポート.Location = new System.Drawing.Point(273, 336);
+=======
+            this.エクスポート.Location = new System.Drawing.Point(341, 403);
+            this.エクスポート.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 63a071c55a389a9657479d08e688cb65f4d2420c
             this.エクスポート.Name = "エクスポート";
             this.エクスポート.Size = new System.Drawing.Size(107, 38);
             this.エクスポート.TabIndex = 2;
@@ -88,7 +93,12 @@
             this.編集.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.編集.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.編集.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
             this.編集.Location = new System.Drawing.Point(403, 336);
+=======
+            this.編集.Location = new System.Drawing.Point(504, 403);
+            this.編集.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 63a071c55a389a9657479d08e688cb65f4d2420c
             this.編集.Name = "編集";
             this.編集.Size = new System.Drawing.Size(107, 38);
             this.編集.TabIndex = 3;
@@ -101,7 +111,12 @@
             this.詳細閲覧.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
             this.詳細閲覧.Location = new System.Drawing.Point(533, 336);
+=======
+            this.詳細閲覧.Location = new System.Drawing.Point(666, 403);
+            this.詳細閲覧.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 63a071c55a389a9657479d08e688cb65f4d2420c
             this.詳細閲覧.Name = "詳細閲覧";
             this.詳細閲覧.Size = new System.Drawing.Size(107, 38);
             this.詳細閲覧.TabIndex = 4;
@@ -114,7 +129,12 @@
             this.評価入力.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.評価入力.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.評価入力.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
             this.評価入力.Location = new System.Drawing.Point(663, 336);
+=======
+            this.評価入力.Location = new System.Drawing.Point(829, 403);
+            this.評価入力.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 63a071c55a389a9657479d08e688cb65f4d2420c
             this.評価入力.Name = "評価入力";
             this.評価入力.Size = new System.Drawing.Size(107, 38);
             this.評価入力.TabIndex = 5;
@@ -127,6 +147,7 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.参加者number,
             this.名前,
@@ -136,6 +157,10 @@
             this.入試対象年度,
             this.入試免除});
             this.dataGridView1.Location = new System.Drawing.Point(12, 60);
+=======
+            this.dataGridView1.Location = new System.Drawing.Point(95, 41);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 63a071c55a389a9657479d08e688cb65f4d2420c
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -204,9 +229,12 @@
             this.Controls.Add(this.エクスポート);
             this.Controls.Add(this.メニュー);
             this.Controls.Add(this.TOP);
+<<<<<<< HEAD
+=======
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 63a071c55a389a9657479d08e688cb65f4d2420c
             this.Name = "_7閲覧画面";
             this.Text = "_7閲覧画面";
-            this.Load += new System.EventHandler(this._7閲覧画面_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

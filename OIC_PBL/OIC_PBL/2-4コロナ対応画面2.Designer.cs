@@ -84,7 +84,6 @@
             this.Controls.Add(this.button1);
             this.Name = "_2_4コロナ対応画面2";
             this.Text = "_2_4コロナ対応画面2";
-            this.Load += new System.EventHandler(this._2_4コロナ対応画面2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

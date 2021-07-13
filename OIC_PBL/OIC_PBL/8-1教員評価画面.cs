@@ -15,10 +15,6 @@ namespace OIC_PBL
         public _8_1教員評価画面()
         {
             InitializeComponent();
-
-            //フルスクリーン
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void label2_Click(object sender, EventArgs e)

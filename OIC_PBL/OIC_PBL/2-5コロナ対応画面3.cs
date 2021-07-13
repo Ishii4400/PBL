@@ -15,10 +15,6 @@ namespace OIC_PBL
         public _2_5コロナ対応画面3()
         {
             InitializeComponent();
-
-            //フルスクリーン
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -28,10 +24,5 @@ namespace OIC_PBL
             f1.Show();
 
         }
-
-        private void _2_5コロナ対応画面3_Load(object sender, EventArgs e)
-        {
-
-        }
-    }
+}
 }

@@ -32,13 +32,6 @@
             this.編集 = new System.Windows.Forms.Button();
             this.確定 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.日付 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.名前 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.参加学科 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.不合格理由 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.点数 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.合否 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.否承認 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,9 +39,10 @@
             // 
             this.この内容で登録してよろしいですか.AutoSize = true;
             this.この内容で登録してよろしいですか.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.この内容で登録してよろしいですか.Location = new System.Drawing.Point(71, 50);
+            this.この内容で登録してよろしいですか.Location = new System.Drawing.Point(89, 60);
+            this.この内容で登録してよろしいですか.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.この内容で登録してよろしいですか.Name = "この内容で登録してよろしいですか";
-            this.この内容で登録してよろしいですか.Size = new System.Drawing.Size(238, 15);
+            this.この内容で登録してよろしいですか.Size = new System.Drawing.Size(285, 18);
             this.この内容で登録してよろしいですか.TabIndex = 0;
             this.この内容で登録してよろしいですか.Text = "この内容で登録してよろしいですか？";
             // 
@@ -57,9 +51,10 @@
             this.編集.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.編集.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.編集.ForeColor = System.Drawing.SystemColors.Window;
-            this.編集.Location = new System.Drawing.Point(497, 341);
+            this.編集.Location = new System.Drawing.Point(621, 409);
+            this.編集.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.編集.Name = "編集";
-            this.編集.Size = new System.Drawing.Size(107, 38);
+            this.編集.Size = new System.Drawing.Size(134, 46);
             this.編集.TabIndex = 1;
             this.編集.Text = "編集";
             this.編集.UseVisualStyleBackColor = false;
@@ -70,9 +65,10 @@
             this.確定.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.確定.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.確定.ForeColor = System.Drawing.SystemColors.Window;
-            this.確定.Location = new System.Drawing.Point(636, 341);
+            this.確定.Location = new System.Drawing.Point(795, 409);
+            this.確定.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.確定.Name = "確定";
-            this.確定.Size = new System.Drawing.Size(107, 38);
+            this.確定.Size = new System.Drawing.Size(134, 46);
             this.確定.TabIndex = 2;
             this.確定.Text = "確定";
             this.確定.UseVisualStyleBackColor = false;
@@ -83,83 +79,27 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.日付,
-            this.名前,
-            this.参加学科,
-            this.不合格理由,
-            this.点数,
-            this.合否,
-            this.否承認});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(102, 89);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(776, 257);
-            this.dataGridView1.TabIndex = 6;
-            // 
-            // 日付
-            // 
-            this.日付.HeaderText = "日付";
-            this.日付.MinimumWidth = 6;
-            this.日付.Name = "日付";
-            this.日付.Width = 99;
-            // 
-            // 名前
-            // 
-            this.名前.HeaderText = "名前";
-            this.名前.MinimumWidth = 6;
-            this.名前.Name = "名前";
-            this.名前.Width = 120;
-            // 
-            // 参加学科
-            // 
-            this.参加学科.HeaderText = "参加学科";
-            this.参加学科.MinimumWidth = 6;
-            this.参加学科.Name = "参加学科";
-            this.参加学科.Width = 160;
-            // 
-            // 不合格理由
-            // 
-            this.不合格理由.HeaderText = "不合格理由";
-            this.不合格理由.MinimumWidth = 6;
-            this.不合格理由.Name = "不合格理由";
-            this.不合格理由.Width = 150;
-            // 
-            // 点数
-            // 
-            this.点数.HeaderText = "点数";
-            this.点数.MinimumWidth = 6;
-            this.点数.Name = "点数";
-            this.点数.Width = 64;
-            // 
-            // 合否
-            // 
-            this.合否.HeaderText = "合否";
-            this.合否.MinimumWidth = 6;
-            this.合否.Name = "合否";
-            this.合否.Width = 65;
-            // 
-            // 否承認
-            // 
-            this.否承認.HeaderText = "否承認";
-            this.否承認.MinimumWidth = 6;
-            this.否承認.Name = "否承認";
-            this.否承認.Width = 65;
+            this.dataGridView1.Size = new System.Drawing.Size(831, 313);
+            this.dataGridView1.TabIndex = 3;
             // 
             // _6_2承認確認画面
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1000, 540);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.確定);
             this.Controls.Add(this.編集);
             this.Controls.Add(this.この内容で登録してよろしいですか);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "_6_2承認確認画面";
             this.Text = "_6_2承認確認画面";
-            this.Load += new System.EventHandler(this._6_2承認確認画面_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -172,12 +112,5 @@
         private System.Windows.Forms.Button 編集;
         private System.Windows.Forms.Button 確定;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 日付;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 名前;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 参加学科;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 不合格理由;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 点数;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 合否;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 否承認;
     }
 }
