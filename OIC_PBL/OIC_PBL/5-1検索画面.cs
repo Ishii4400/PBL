@@ -15,10 +15,6 @@ namespace OIC_PBL
         public _5_1検索画面()
         {
             InitializeComponent();
-
-            //フルスクリーン
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void label2_Click(object sender, EventArgs e)

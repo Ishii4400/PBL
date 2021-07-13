@@ -460,7 +460,6 @@ namespace OIC_PBL
             this.Controls.Add(this.label1);
             this.Name = "_9詳細閲覧画面";
             this.Text = "_9詳細閲覧画面";
-            this.Load += new System.EventHandler(this._9詳細閲覧画面_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

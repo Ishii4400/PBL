@@ -15,10 +15,6 @@ namespace OIC_PBL
         public _2_4コロナ対応画面2()
         {
             InitializeComponent();
-
-            //フルスクリーン
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,11 +36,6 @@ namespace OIC_PBL
             this.Visible = false;
             _2_1コロナ対応画面1 f3 = new _2_1コロナ対応画面1();
             f3.Show();
-        }
-
-        private void _2_4コロナ対応画面2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

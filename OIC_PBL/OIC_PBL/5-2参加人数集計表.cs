@@ -15,10 +15,6 @@ namespace OIC_PBL
         public _5_2参加人数集計表()
         {
             InitializeComponent();
-
-            //フルスクリーン
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void 戻る_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -27,11 +23,6 @@ namespace OIC_PBL
             _5_1検索画面.Show();
 
             this.Hide();
-        }
-
-        private void _5_2参加人数集計表_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

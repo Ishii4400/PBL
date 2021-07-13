@@ -56,6 +56,8 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -210,6 +212,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "登録";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // linkLabel1
             // 
@@ -221,6 +224,7 @@
             this.linkLabel1.TabIndex = 17;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Top";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // radioButton1
             // 
@@ -311,12 +315,36 @@
             this.textBox8.Size = new System.Drawing.Size(100, 25);
             this.textBox8.TabIndex = 27;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("MS UI Gothic", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label13.ForeColor = System.Drawing.Color.Red;
+            this.label13.Location = new System.Drawing.Point(39, 54);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(260, 12);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "※2回目以降の方は参加者No.のみを入力してください";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("MS UI Gothic", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label14.ForeColor = System.Drawing.Color.Red;
+            this.label14.Location = new System.Drawing.Point(39, 107);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(274, 12);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "※初めてお越しの方は以下の項目を全て入力してください";
+            // 
             // _3_1受付画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -348,7 +376,6 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "_3_1受付画面";
             this.Text = "_3_1受付画面";
-            this.Load += new System.EventHandler(this._3_1受付画面_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -384,5 +411,7 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
     }
 }

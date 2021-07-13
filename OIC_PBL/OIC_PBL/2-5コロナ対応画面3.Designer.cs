@@ -64,7 +64,6 @@
             this.Controls.Add(this.label1);
             this.Name = "_2_5コロナ対応画面3";
             this.Text = "_2_5コロナ対応画面3";
-            this.Load += new System.EventHandler(this._2_5コロナ対応画面3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -15,10 +15,6 @@ namespace OIC_PBL
         public Form1()
         {
             InitializeComponent();
-
-            //フルスクリーン
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
        
@@ -39,11 +35,6 @@ namespace OIC_PBL
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
