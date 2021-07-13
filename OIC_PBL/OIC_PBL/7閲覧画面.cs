@@ -15,6 +15,10 @@ namespace OIC_PBL
         public _7閲覧画面()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void TOP_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -59,6 +63,11 @@ namespace OIC_PBL
         }
 
         private void エクスポート_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _7閲覧画面_Load(object sender, EventArgs e)
         {
 
         }

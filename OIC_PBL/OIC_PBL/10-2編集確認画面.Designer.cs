@@ -188,10 +188,10 @@
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Location = new System.Drawing.Point(397, 85);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(360, 272);
+            this.label5.Size = new System.Drawing.Size(334, 272);
             this.label5.TabIndex = 38;
-            this.label5.Text = "                                                                      \r\n\r\n\r\n\r\n\r\n\r" +
-    "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            this.label5.Text = "　　                                                            \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r" +
+    "\n\r\n\r\n\r\n\r\n\r\n";
             // 
             // label4
             // 
@@ -433,6 +433,7 @@
             this.Controls.Add(this.label1);
             this.Name = "_10_2編集確認画面";
             this.Text = "_10_2編集確認画面";
+            this.Load += new System.EventHandler(this._10_2編集確認画面_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

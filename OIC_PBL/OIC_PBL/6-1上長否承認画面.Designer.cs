@@ -69,7 +69,7 @@
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
             this.詳細閲覧.Location = new System.Drawing.Point(501, 407);
-            this.詳細閲覧.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.詳細閲覧.Margin = new System.Windows.Forms.Padding(4);
             this.詳細閲覧.Name = "詳細閲覧";
             this.詳細閲覧.Size = new System.Drawing.Size(134, 46);
             this.詳細閲覧.TabIndex = 2;
@@ -83,7 +83,7 @@
             this.否認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.否認.ForeColor = System.Drawing.SystemColors.Window;
             this.否認.Location = new System.Drawing.Point(664, 407);
-            this.否認.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.否認.Margin = new System.Windows.Forms.Padding(4);
             this.否認.Name = "否認";
             this.否認.Size = new System.Drawing.Size(134, 46);
             this.否認.TabIndex = 3;
@@ -97,7 +97,7 @@
             this.承認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.承認.ForeColor = System.Drawing.SystemColors.Window;
             this.承認.Location = new System.Drawing.Point(824, 407);
-            this.承認.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.承認.Margin = new System.Windows.Forms.Padding(4);
             this.承認.Name = "承認";
             this.承認.Size = new System.Drawing.Size(134, 46);
             this.承認.TabIndex = 4;
@@ -111,7 +111,7 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(71, 35);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -130,9 +130,10 @@
             this.Controls.Add(this.詳細閲覧);
             this.Controls.Add(this.メニュー);
             this.Controls.Add(this.TOP);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "_6_1上長承認画面";
             this.Text = "_6_1上長承認画面";
+            this.Load += new System.EventHandler(this._6_1上長承認画面_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

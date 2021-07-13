@@ -15,6 +15,10 @@ namespace OIC_PBL
         public _2_1コロナ対応画面1()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,6 +40,11 @@ namespace OIC_PBL
             this.Visible = false;
             Form1 f3 = new Form1();
             f3.Show();
+        }
+
+        private void _2_1コロナ対応画面1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

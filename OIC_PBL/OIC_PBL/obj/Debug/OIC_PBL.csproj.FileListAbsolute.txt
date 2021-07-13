@@ -60,15 +60,10 @@ C:\Users\81902\Documents\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._9詳細閲覧画
 >>>>>>> 8c891e5abc7d34b90531a9191a47294a5a0a036c
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._10_1編集画面.resources
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._10_2編集確認画面.resources
-<<<<<<< HEAD
-C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_2交通費確認画面1.resources
-C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_3交通費確認画面2.resources
-C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_5コロナ対応画面3.resources
-=======
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_2交通費確認画面1.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_3交通費確認画面2.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._2_5コロナ対応画面3.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._5_2参加人数集計表.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._6_1上長承認画面.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._6_2承認確認画面.resources
->>>>>>> 3857c1e926f3f0d7aeec9568c6d052ff80a0efd3
+C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._7閲覧画面.resources

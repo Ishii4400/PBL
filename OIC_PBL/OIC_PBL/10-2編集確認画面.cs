@@ -15,7 +15,12 @@ namespace OIC_PBL
         public _10_2編集確認画面()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
+
 
         private void label21_Click(object sender, EventArgs e)
         {
@@ -38,6 +43,11 @@ namespace OIC_PBL
             _9詳細閲覧画面.Show();
 
             this.Hide();
+        }
+
+        private void _10_2編集確認画面_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

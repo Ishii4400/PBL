@@ -15,6 +15,10 @@ namespace OIC_PBL
         public _10_1編集画面()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -73,6 +77,11 @@ namespace OIC_PBL
             _10_2編集確認画面.Show();
 
             this.Hide();
+        }
+
+        private void _10_1編集画面_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

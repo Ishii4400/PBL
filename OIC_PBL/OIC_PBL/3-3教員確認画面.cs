@@ -15,6 +15,15 @@ namespace OIC_PBL
         public _3_3教員確認画面()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void _3_3教員確認画面_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

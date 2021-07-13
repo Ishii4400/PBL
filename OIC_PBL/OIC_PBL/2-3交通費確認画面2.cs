@@ -15,6 +15,10 @@ namespace OIC_PBL
         public _2_3交通費確認画面2()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -27,6 +31,11 @@ namespace OIC_PBL
         {
             _2_4コロナ対応画面2 f1 = new _2_4コロナ対応画面2();
             f1.Show();
+        }
+
+        private void _2_3交通費確認画面2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

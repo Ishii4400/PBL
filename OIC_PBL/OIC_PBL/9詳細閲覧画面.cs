@@ -15,6 +15,10 @@ namespace OIC_PBL
         public _9詳細閲覧画面()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -60,6 +64,11 @@ namespace OIC_PBL
             _7閲覧画面.Show();
 
             this.Hide();
+        }
+
+        private void _9詳細閲覧画面_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -16,11 +16,9 @@ namespace OIC_PBL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new _2_1コロナ対応画面1());
-=======
-            Application.Run(new Form1());
->>>>>>> 23b277756dd2781559f60dfeeee954c0a00a9ff3
+
+            Application.Run(new _10_2編集確認画面());
+
         }
     }
 }

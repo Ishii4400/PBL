@@ -348,6 +348,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "_3_1受付画面";
             this.Text = "_3_1受付画面";
+            this.Load += new System.EventHandler(this._3_1受付画面_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
