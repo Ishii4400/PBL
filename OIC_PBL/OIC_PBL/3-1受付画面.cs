@@ -17,6 +17,18 @@ namespace OIC_PBL
             InitializeComponent();
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            _3_2参加者確認画面 f1 = new _3_2参加者確認画面();
+            f1.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Visible = false;
+            Form1 f2 = new Form1();
+            f2.Show();
+        }
     }
 }

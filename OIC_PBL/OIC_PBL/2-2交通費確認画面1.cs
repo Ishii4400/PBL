@@ -19,6 +19,7 @@ namespace OIC_PBL
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Visible = false;
             _2_3交通費確認画面2　f1 = new _2_3交通費確認画面2();
             f1.Show();
         }

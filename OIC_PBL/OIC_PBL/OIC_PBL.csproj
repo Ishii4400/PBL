@@ -199,6 +199,12 @@
     <EmbeddedResource Include="2-5コロナ対応画面3.resx">
       <DependentUpon>2-5コロナ対応画面3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="3-1受付画面.resx">
+      <DependentUpon>3-1受付画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3-3教員確認画面.resx">
+      <DependentUpon>3-3教員確認画面.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="4メニュー画面.resx">
       <DependentUpon>4メニュー画面.cs</DependentUpon>
     </EmbeddedResource>
