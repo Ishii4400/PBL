@@ -30,12 +30,12 @@
         {
             this.戻る = new System.Windows.Forms.LinkLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.日付 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.年月日 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.三年生の入試対象年度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.年度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.学科 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.合計 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.三年以上 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,38 +67,12 @@
             this.三年生の入試対象年度,
             this.年度});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Window;
+            this.dataGridView1.Location = new System.Drawing.Point(119, 50);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(578, 25);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(130, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "説明会参加者・参加学科集計リスト";
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.学科,
-            this.合計,
-            this.三年以上,
-            this.二年,
-            this.一年});
-            this.dataGridView2.GridColor = System.Drawing.SystemColors.Window;
-            this.dataGridView2.Location = new System.Drawing.Point(119, 81);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(578, 277);
-            this.dataGridView2.TabIndex = 3;
             // 
             // 日付
             // 
@@ -128,6 +102,33 @@
             this.年度.MinimumWidth = 6;
             this.年度.Name = "年度";
             this.年度.Width = 125;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(130, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(226, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "説明会参加者・参加学科集計リスト";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.学科,
+            this.合計,
+            this.三年以上,
+            this.二年,
+            this.一年});
+            this.dataGridView2.GridColor = System.Drawing.SystemColors.Window;
+            this.dataGridView2.Location = new System.Drawing.Point(119, 81);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(578, 277);
+            this.dataGridView2.TabIndex = 3;
             // 
             // 学科
             // 
