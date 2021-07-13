@@ -1,4 +1,6 @@
-﻿namespace OIC_PBL
+﻿using System;
+
+namespace OIC_PBL
 {
     partial class _3_2参加者確認画面
     {
@@ -108,6 +110,11 @@
             this.ResumeLayout(false);
 
 
+        }
+
+        private void _3_2参加者確認画面_Load(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
