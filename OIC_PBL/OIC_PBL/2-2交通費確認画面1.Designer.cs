@@ -167,9 +167,9 @@
             this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(319, 362);
+            this.button1.Location = new System.Drawing.Point(310, 362);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 52);
+            this.button1.Size = new System.Drawing.Size(139, 46);
             this.button1.TabIndex = 11;
             this.button1.Text = "次へ";
             this.button1.UseVisualStyleBackColor = false;
@@ -179,6 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton10);
