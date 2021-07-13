@@ -19,6 +19,7 @@ namespace OIC_PBL
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.Visible = false;
             _2_4コロナ対応画面2 f1 = new _2_4コロナ対応画面2();
             f1.Show();
 
