@@ -31,16 +31,16 @@
             this.戻る = new System.Windows.Forms.LinkLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.日付 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.年月日 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.入試対象年度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.年度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.学科 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.合計 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.三年以上 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.二年 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.一年 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.日付 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.年月日 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.入試対象年度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.年度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -83,34 +83,6 @@
             this.label1.Size = new System.Drawing.Size(226, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "説明会参加者・参加学科集計リスト";
-            // 
-            // 日付
-            // 
-            this.日付.HeaderText = "日付";
-            this.日付.MinimumWidth = 6;
-            this.日付.Name = "日付";
-            this.日付.Width = 70;
-            // 
-            // 年月日
-            // 
-            this.年月日.HeaderText = "";
-            this.年月日.MinimumWidth = 6;
-            this.年月日.Name = "年月日";
-            this.年月日.Width = 125;
-            // 
-            // 入試対象年度
-            // 
-            this.入試対象年度.HeaderText = "３年生の入試対象年度";
-            this.入試対象年度.MinimumWidth = 6;
-            this.入試対象年度.Name = "入試対象年度";
-            this.入試対象年度.Width = 200;
-            // 
-            // 年度
-            // 
-            this.年度.HeaderText = "";
-            this.年度.MinimumWidth = 6;
-            this.年度.Name = "年度";
-            this.年度.Width = 125;
             // 
             // dataGridView2
             // 
@@ -165,6 +137,34 @@
             this.一年.Name = "一年";
             this.一年.Width = 70;
             // 
+            // 日付
+            // 
+            this.日付.HeaderText = "日付";
+            this.日付.MinimumWidth = 6;
+            this.日付.Name = "日付";
+            this.日付.Width = 70;
+            // 
+            // 年月日
+            // 
+            this.年月日.HeaderText = "";
+            this.年月日.MinimumWidth = 6;
+            this.年月日.Name = "年月日";
+            this.年月日.Width = 125;
+            // 
+            // 入試対象年度
+            // 
+            this.入試対象年度.HeaderText = "３年生の入試対象年度";
+            this.入試対象年度.MinimumWidth = 6;
+            this.入試対象年度.Name = "入試対象年度";
+            this.入試対象年度.Width = 200;
+            // 
+            // 年度
+            // 
+            this.年度.HeaderText = "";
+            this.年度.MinimumWidth = 6;
+            this.年度.Name = "年度";
+            this.年度.Width = 130;
+            // 
             // _5_2参加人数集計表
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -189,15 +189,15 @@
         private System.Windows.Forms.LinkLabel 戻る;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 日付;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 年月日;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 入試対象年度;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 年度;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn 学科;
         private System.Windows.Forms.DataGridViewTextBoxColumn 合計;
         private System.Windows.Forms.DataGridViewTextBoxColumn 三年以上;
         private System.Windows.Forms.DataGridViewTextBoxColumn 二年;
         private System.Windows.Forms.DataGridViewTextBoxColumn 一年;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 日付;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 年月日;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 入試対象年度;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 年度;
     }
 }
