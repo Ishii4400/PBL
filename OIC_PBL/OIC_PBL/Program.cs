@@ -17,7 +17,7 @@ namespace OIC_PBL
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new _10_2編集確認画面());
+            Application.Run(new _5_2参加人数集計表());
 
         }
     }
