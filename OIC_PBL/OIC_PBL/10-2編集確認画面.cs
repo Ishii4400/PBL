@@ -15,6 +15,8 @@ namespace OIC_PBL
         public _10_2編集確認画面()
         {
             InitializeComponent();
+
+            //フルスクリーン
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
         }

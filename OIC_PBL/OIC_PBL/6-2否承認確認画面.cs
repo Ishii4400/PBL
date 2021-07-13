@@ -15,6 +15,10 @@ namespace OIC_PBL
         public _6_2承認確認画面()
         {
             InitializeComponent();
+
+            //フルスクリーン
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void 編集_Click(object sender, EventArgs e)
@@ -31,6 +35,11 @@ namespace OIC_PBL
             _6_1上長承認画面.Show();
 
             this.Hide();
+        }
+
+        private void _6_2承認確認画面_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

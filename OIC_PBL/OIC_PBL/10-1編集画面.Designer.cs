@@ -746,6 +746,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "_10_1編集画面";
             this.Text = "_10_1編集画面";
+            this.Load += new System.EventHandler(this._10_1編集画面_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

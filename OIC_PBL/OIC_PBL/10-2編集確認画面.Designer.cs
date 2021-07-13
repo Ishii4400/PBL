@@ -188,10 +188,10 @@
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Location = new System.Drawing.Point(397, 85);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(360, 272);
+            this.label5.Size = new System.Drawing.Size(334, 272);
             this.label5.TabIndex = 38;
-            this.label5.Text = "                                                                      \r\n\r\n\r\n\r\n\r\n\r" +
-    "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            this.label5.Text = "　　                                                            \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r" +
+    "\n\r\n\r\n\r\n\r\n\r\n";
             // 
             // label4
             // 
