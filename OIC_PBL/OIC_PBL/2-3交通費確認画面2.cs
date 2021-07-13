@@ -19,12 +19,14 @@ namespace OIC_PBL
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.Visible = false;
             _2_2交通費確認画面1 f1 = new _2_2交通費確認画面1();
             f1.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Visible = false;
             _2_4コロナ対応画面2 f1 = new _2_4コロナ対応画面2();
             f1.Show();
         }
