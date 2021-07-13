@@ -214,6 +214,9 @@
     <EmbeddedResource Include="6-2否承認確認画面.resx">
       <DependentUpon>6-2否承認確認画面.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="7閲覧画面.resx">
+      <DependentUpon>7閲覧画面.cs</DependentUpon>
+    </EmbeddedResource>
     <!--<<<<<<< HEAD
     <EmbeddedResource Include="9詳細閲覧画面.resx">
       <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
