@@ -110,7 +110,7 @@
             this.textBox2.Location = new System.Drawing.Point(139, 125);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(75, 29);
+            this.textBox2.Size = new System.Drawing.Size(96, 29);
             this.textBox2.TabIndex = 5;
             // 
             // textBox3
@@ -253,13 +253,19 @@
             this.textBox4.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox4.Location = new System.Drawing.Point(139, 221);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 25);
+            this.textBox4.Size = new System.Drawing.Size(219, 25);
             this.textBox4.TabIndex = 20;
             // 
             // comboBox2
             // 
             this.comboBox2.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "1年生",
+            "2年生",
+            "3年生",
+            "4年生",
+            "その他"});
             this.comboBox2.Location = new System.Drawing.Point(139, 268);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 26);
@@ -312,7 +318,7 @@
             this.textBox8.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox8.Location = new System.Drawing.Point(529, 214);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 25);
+            this.textBox8.Size = new System.Drawing.Size(171, 25);
             this.textBox8.TabIndex = 27;
             // 
             // label13

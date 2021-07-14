@@ -202,6 +202,9 @@
     <EmbeddedResource Include="3-1受付画面.resx">
       <DependentUpon>3-1受付画面.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="3-2参加者確認画面.resx">
+      <DependentUpon>3-2参加者確認画面.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="3-3教員確認画面.resx">
       <DependentUpon>3-3教員確認画面.cs</DependentUpon>
     </EmbeddedResource>
