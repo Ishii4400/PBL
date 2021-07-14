@@ -93,7 +93,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(139, 171);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 26);
+            this.comboBox1.Size = new System.Drawing.Size(219, 26);
             this.comboBox1.TabIndex = 3;
             // 
             // textBox1
@@ -107,10 +107,10 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox2.Location = new System.Drawing.Point(139, 125);
+            this.textBox2.Location = new System.Drawing.Point(139, 129);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(96, 29);
+            this.textBox2.Size = new System.Drawing.Size(96, 25);
             this.textBox2.TabIndex = 5;
             // 
             // textBox3
@@ -205,6 +205,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.Location = new System.Drawing.Point(650, 381);
             this.button1.Name = "button1";
@@ -268,25 +269,46 @@
             "その他"});
             this.comboBox2.Location = new System.Drawing.Point(139, 268);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 26);
+            this.comboBox2.Size = new System.Drawing.Size(219, 26);
             this.comboBox2.TabIndex = 21;
             // 
             // comboBox3
             // 
             this.comboBox3.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "医療福祉事務学科",
+            "診療情報管理士学科",
+            "ホテル・ブライダル学科",
+            "経営アシスト学科",
+            "公務員学科",
+            "公務員速修学科",
+            "保育学科",
+            "情報スペシャリスト学科",
+            "情報システム学科",
+            "ゲームクリエイター学科",
+            "ゲームプログラマー学科",
+            "データマーケター学科",
+            "ネット・動画クリエイター学科",
+            "CGデザイン学科"});
             this.comboBox3.Location = new System.Drawing.Point(139, 322);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 26);
+            this.comboBox3.Size = new System.Drawing.Size(219, 26);
             this.comboBox3.TabIndex = 22;
             // 
             // comboBox4
             // 
             this.comboBox4.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "1回目",
+            "2回目",
+            "3回目",
+            "4回目",
+            "その他"});
             this.comboBox4.Location = new System.Drawing.Point(139, 381);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 26);
+            this.comboBox4.Size = new System.Drawing.Size(219, 26);
             this.comboBox4.TabIndex = 23;
             // 
             // textBox5
@@ -310,7 +332,7 @@
             this.textBox7.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox7.Location = new System.Drawing.Point(529, 164);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 25);
+            this.textBox7.Size = new System.Drawing.Size(235, 25);
             this.textBox7.TabIndex = 26;
             // 
             // textBox8
@@ -318,7 +340,7 @@
             this.textBox8.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox8.Location = new System.Drawing.Point(529, 214);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(171, 25);
+            this.textBox8.Size = new System.Drawing.Size(235, 25);
             this.textBox8.TabIndex = 27;
             // 
             // label13
