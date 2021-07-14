@@ -30,5 +30,7 @@ namespace OIC_PBL
             _3_3教員確認画面 f2 = new _3_3教員確認画面();
             f2.Show();
         }
+
+       
     }
 }
