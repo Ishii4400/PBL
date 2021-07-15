@@ -51,9 +51,10 @@ namespace OIC_PBL
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 45);
+            this.label1.Location = new System.Drawing.Point(38, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 18);
+            this.label1.Size = new System.Drawing.Size(211, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "入力内容に間違いがないか確認してください";
             // 
@@ -61,11 +62,12 @@ namespace OIC_PBL
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(72, 110);
+            this.dataGridView1.Location = new System.Drawing.Point(43, 73);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(662, 249);
+            this.dataGridView1.Size = new System.Drawing.Size(397, 166);
             this.dataGridView1.TabIndex = 1;
             // 
             // button1
@@ -73,9 +75,10 @@ namespace OIC_PBL
             this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(472, 389);
+            this.button1.Location = new System.Drawing.Point(283, 259);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 38);
+            this.button1.Size = new System.Drawing.Size(64, 25);
             this.button1.TabIndex = 2;
             this.button1.Text = "編集";
             this.button1.UseVisualStyleBackColor = false;
@@ -86,9 +89,10 @@ namespace OIC_PBL
             this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(627, 389);
+            this.button2.Location = new System.Drawing.Point(376, 259);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 38);
+            this.button2.Size = new System.Drawing.Size(64, 25);
             this.button2.TabIndex = 3;
             this.button2.Text = "確定";
             this.button2.UseVisualStyleBackColor = false;
@@ -98,9 +102,10 @@ namespace OIC_PBL
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label2.Location = new System.Drawing.Point(103, 127);
+            this.label2.Location = new System.Drawing.Point(62, 85);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 18);
+            this.label2.Size = new System.Drawing.Size(79, 12);
             this.label2.TabIndex = 4;
             this.label2.Text = "参加者No.　　：";
             // 
@@ -108,9 +113,10 @@ namespace OIC_PBL
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label3.Location = new System.Drawing.Point(103, 161);
+            this.label3.Location = new System.Drawing.Point(62, 107);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 18);
+            this.label3.Size = new System.Drawing.Size(81, 12);
             this.label3.TabIndex = 5;
             this.label3.Text = "お名前　   　　：";
             // 
@@ -118,9 +124,10 @@ namespace OIC_PBL
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label4.Location = new System.Drawing.Point(103, 189);
+            this.label4.Location = new System.Drawing.Point(62, 126);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 18);
+            this.label4.Size = new System.Drawing.Size(83, 12);
             this.label4.TabIndex = 6;
             this.label4.Text = "所属 　   　　　：";
             // 
@@ -128,9 +135,10 @@ namespace OIC_PBL
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label5.Location = new System.Drawing.Point(103, 218);
+            this.label5.Location = new System.Drawing.Point(62, 145);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 18);
+            this.label5.Size = new System.Drawing.Size(83, 12);
             this.label5.TabIndex = 7;
             this.label5.Text = "学校名　       ：\r\n";
             // 
@@ -138,9 +146,10 @@ namespace OIC_PBL
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label6.Location = new System.Drawing.Point(103, 247);
+            this.label6.Location = new System.Drawing.Point(62, 165);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 18);
+            this.label6.Size = new System.Drawing.Size(87, 12);
             this.label6.TabIndex = 8;
             this.label6.Text = "学年             ：";
             // 
@@ -148,9 +157,10 @@ namespace OIC_PBL
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label7.Location = new System.Drawing.Point(103, 275);
+            this.label7.Location = new System.Drawing.Point(62, 183);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 18);
+            this.label7.Size = new System.Drawing.Size(79, 12);
             this.label7.TabIndex = 9;
             this.label7.Text = "希望学科　   ：";
             // 
@@ -158,9 +168,10 @@ namespace OIC_PBL
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label8.Location = new System.Drawing.Point(103, 308);
+            this.label8.Location = new System.Drawing.Point(62, 205);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(119, 18);
+            this.label8.Size = new System.Drawing.Size(83, 12);
             this.label8.TabIndex = 10;
             this.label8.Text = "参加回数      ：";
             // 
@@ -168,9 +179,10 @@ namespace OIC_PBL
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label9.Location = new System.Drawing.Point(430, 127);
+            this.label9.Location = new System.Drawing.Point(258, 85);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(59, 18);
+            this.label9.Size = new System.Drawing.Size(40, 12);
             this.label9.TabIndex = 11;
             this.label9.Text = "フリガナ";
             // 
@@ -178,9 +190,10 @@ namespace OIC_PBL
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label10.Location = new System.Drawing.Point(430, 161);
+            this.label10.Location = new System.Drawing.Point(258, 107);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(44, 18);
+            this.label10.Size = new System.Drawing.Size(29, 12);
             this.label10.TabIndex = 12;
             this.label10.Text = "年齢";
             // 
@@ -188,9 +201,10 @@ namespace OIC_PBL
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label11.Location = new System.Drawing.Point(430, 189);
+            this.label11.Location = new System.Drawing.Point(258, 126);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(89, 18);
+            this.label11.Size = new System.Drawing.Size(59, 12);
             this.label11.TabIndex = 13;
             this.label11.Text = "学科・学部";
             // 
@@ -198,18 +212,19 @@ namespace OIC_PBL
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label12.Location = new System.Drawing.Point(430, 218);
+            this.label12.Location = new System.Drawing.Point(258, 145);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(85, 18);
+            this.label12.Size = new System.Drawing.Size(56, 12);
             this.label12.TabIndex = 14;
             this.label12.Text = "希望コース";
             // 
             // _3_2参加者確認画面
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -225,6 +240,7 @@ namespace OIC_PBL
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "_3_2参加者確認画面";
             this.Text = "_3_2参加者確認画面";
             this.Load += new System.EventHandler(this._3_2参加者確認画面_Load);

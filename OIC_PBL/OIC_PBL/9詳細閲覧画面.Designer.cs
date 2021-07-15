@@ -70,9 +70,10 @@ namespace OIC_PBL
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label1.Location = new System.Drawing.Point(21, 29);
+            this.label1.Location = new System.Drawing.Point(13, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(680, 360);
+            this.label1.Size = new System.Drawing.Size(453, 240);
             this.label1.TabIndex = 0;
             this.label1.Text = "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r" +
     "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
@@ -81,9 +82,10 @@ namespace OIC_PBL
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(26, 410);
+            this.linkLabel1.Location = new System.Drawing.Point(16, 273);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(43, 18);
+            this.linkLabel1.Size = new System.Drawing.Size(27, 12);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "TOP";
@@ -93,9 +95,10 @@ namespace OIC_PBL
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel2.Location = new System.Drawing.Point(93, 410);
+            this.linkLabel2.Location = new System.Drawing.Point(56, 273);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(60, 18);
+            this.linkLabel2.Size = new System.Drawing.Size(40, 12);
             this.linkLabel2.TabIndex = 7;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "メニュー";
@@ -105,9 +108,10 @@ namespace OIC_PBL
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel3.Location = new System.Drawing.Point(180, 410);
+            this.linkLabel3.Location = new System.Drawing.Point(108, 273);
+            this.linkLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(62, 18);
+            this.linkLabel3.Size = new System.Drawing.Size(41, 12);
             this.linkLabel3.TabIndex = 8;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "否承認";
@@ -117,9 +121,10 @@ namespace OIC_PBL
             // 
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel4.Location = new System.Drawing.Point(275, 410);
+            this.linkLabel4.Location = new System.Drawing.Point(165, 273);
+            this.linkLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(44, 18);
+            this.linkLabel4.Size = new System.Drawing.Size(29, 12);
             this.linkLabel4.TabIndex = 9;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "編集";
@@ -129,9 +134,10 @@ namespace OIC_PBL
             // 
             this.linkLabel5.AutoSize = true;
             this.linkLabel5.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel5.Location = new System.Drawing.Point(353, 410);
+            this.linkLabel5.Location = new System.Drawing.Point(212, 273);
+            this.linkLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(44, 18);
+            this.linkLabel5.Size = new System.Drawing.Size(29, 12);
             this.linkLabel5.TabIndex = 10;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "閲覧";
@@ -141,9 +147,10 @@ namespace OIC_PBL
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label4.Location = new System.Drawing.Point(400, 55);
+            this.label4.Location = new System.Drawing.Point(240, 37);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 18);
+            this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 14;
             this.label4.Text = "参加履歴";
             // 
@@ -152,9 +159,10 @@ namespace OIC_PBL
             this.label5.AutoSize = true;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label5.Location = new System.Drawing.Point(397, 88);
+            this.label5.Location = new System.Drawing.Point(238, 59);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(260, 272);
+            this.label5.Size = new System.Drawing.Size(207, 182);
             this.label5.TabIndex = 15;
             this.label5.Text = "                                                  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
@@ -162,9 +170,10 @@ namespace OIC_PBL
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label3.Location = new System.Drawing.Point(56, 351);
+            this.label3.Location = new System.Drawing.Point(34, 234);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 18);
+            this.label3.Size = new System.Drawing.Size(101, 12);
             this.label3.TabIndex = 41;
             this.label3.Text = "入学金免除対象者";
             // 
@@ -172,9 +181,10 @@ namespace OIC_PBL
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label19.Location = new System.Drawing.Point(56, 326);
+            this.label19.Location = new System.Drawing.Point(34, 217);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(134, 18);
+            this.label19.Size = new System.Drawing.Size(89, 12);
             this.label19.TabIndex = 40;
             this.label19.Text = "入試免除対象者";
             // 
@@ -182,9 +192,10 @@ namespace OIC_PBL
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label20.Location = new System.Drawing.Point(56, 300);
+            this.label20.Location = new System.Drawing.Point(34, 200);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(98, 18);
+            this.label20.Size = new System.Drawing.Size(65, 12);
             this.label20.TabIndex = 39;
             this.label20.Text = "取得ポイント";
             // 
@@ -192,9 +203,10 @@ namespace OIC_PBL
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label21.Location = new System.Drawing.Point(56, 275);
+            this.label21.Location = new System.Drawing.Point(34, 183);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(116, 18);
+            this.label21.Size = new System.Drawing.Size(77, 12);
             this.label21.TabIndex = 38;
             this.label21.Text = "入試対象年度";
             // 
@@ -202,9 +214,10 @@ namespace OIC_PBL
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label22.Location = new System.Drawing.Point(56, 250);
+            this.label22.Location = new System.Drawing.Point(34, 167);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(44, 18);
+            this.label22.Size = new System.Drawing.Size(29, 12);
             this.label22.TabIndex = 37;
             this.label22.Text = "学年";
             // 
@@ -212,9 +225,10 @@ namespace OIC_PBL
             // 
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label23.Location = new System.Drawing.Point(56, 226);
+            this.label23.Location = new System.Drawing.Point(34, 151);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(89, 18);
+            this.label23.Size = new System.Drawing.Size(59, 12);
             this.label23.TabIndex = 36;
             this.label23.Text = "学科・学部";
             // 
@@ -222,9 +236,10 @@ namespace OIC_PBL
             // 
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label24.Location = new System.Drawing.Point(56, 202);
+            this.label24.Location = new System.Drawing.Point(34, 135);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(62, 18);
+            this.label24.Size = new System.Drawing.Size(41, 12);
             this.label24.TabIndex = 35;
             this.label24.Text = "学校名";
             // 
@@ -232,9 +247,10 @@ namespace OIC_PBL
             // 
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label25.Location = new System.Drawing.Point(56, 176);
+            this.label25.Location = new System.Drawing.Point(34, 117);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(44, 18);
+            this.label25.Size = new System.Drawing.Size(29, 12);
             this.label25.TabIndex = 34;
             this.label25.Text = "年齢";
             // 
@@ -242,9 +258,10 @@ namespace OIC_PBL
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label26.Location = new System.Drawing.Point(56, 150);
+            this.label26.Location = new System.Drawing.Point(34, 100);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(44, 18);
+            this.label26.Size = new System.Drawing.Size(29, 12);
             this.label26.TabIndex = 33;
             this.label26.Text = "所属";
             // 
@@ -252,9 +269,10 @@ namespace OIC_PBL
             // 
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label27.Location = new System.Drawing.Point(56, 123);
+            this.label27.Location = new System.Drawing.Point(34, 82);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(59, 18);
+            this.label27.Size = new System.Drawing.Size(40, 12);
             this.label27.TabIndex = 32;
             this.label27.Text = "フリガナ";
             // 
@@ -262,9 +280,10 @@ namespace OIC_PBL
             // 
             this.label28.AutoSize = true;
             this.label28.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label28.Location = new System.Drawing.Point(56, 96);
+            this.label28.Location = new System.Drawing.Point(34, 64);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(44, 18);
+            this.label28.Size = new System.Drawing.Size(29, 12);
             this.label28.TabIndex = 31;
             this.label28.Text = "名前";
             // 
@@ -272,9 +291,10 @@ namespace OIC_PBL
             // 
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label29.Location = new System.Drawing.Point(56, 67);
+            this.label29.Location = new System.Drawing.Point(34, 45);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(98, 18);
+            this.label29.Size = new System.Drawing.Size(64, 12);
             this.label29.TabIndex = 30;
             this.label29.Text = "入試パスNo.";
             // 
@@ -282,9 +302,10 @@ namespace OIC_PBL
             // 
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label30.Location = new System.Drawing.Point(56, 39);
+            this.label30.Location = new System.Drawing.Point(34, 26);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(87, 18);
+            this.label30.Size = new System.Drawing.Size(57, 12);
             this.label30.TabIndex = 29;
             this.label30.Text = "参加者No.";
             // 
@@ -292,9 +313,10 @@ namespace OIC_PBL
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label6.Location = new System.Drawing.Point(215, 350);
+            this.label6.Location = new System.Drawing.Point(129, 233);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(17, 18);
+            this.label6.Size = new System.Drawing.Size(11, 12);
             this.label6.TabIndex = 54;
             this.label6.Text = "：";
             // 
@@ -302,9 +324,10 @@ namespace OIC_PBL
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label7.Location = new System.Drawing.Point(215, 325);
+            this.label7.Location = new System.Drawing.Point(129, 217);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(17, 18);
+            this.label7.Size = new System.Drawing.Size(11, 12);
             this.label7.TabIndex = 53;
             this.label7.Text = "：";
             // 
@@ -312,9 +335,10 @@ namespace OIC_PBL
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label8.Location = new System.Drawing.Point(215, 299);
+            this.label8.Location = new System.Drawing.Point(129, 199);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(17, 18);
+            this.label8.Size = new System.Drawing.Size(11, 12);
             this.label8.TabIndex = 52;
             this.label8.Text = "：";
             // 
@@ -322,9 +346,10 @@ namespace OIC_PBL
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label9.Location = new System.Drawing.Point(215, 274);
+            this.label9.Location = new System.Drawing.Point(129, 183);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(17, 18);
+            this.label9.Size = new System.Drawing.Size(11, 12);
             this.label9.TabIndex = 51;
             this.label9.Text = "：";
             // 
@@ -332,9 +357,10 @@ namespace OIC_PBL
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label10.Location = new System.Drawing.Point(215, 249);
+            this.label10.Location = new System.Drawing.Point(129, 166);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 18);
+            this.label10.Size = new System.Drawing.Size(11, 12);
             this.label10.TabIndex = 50;
             this.label10.Text = "：";
             // 
@@ -342,9 +368,10 @@ namespace OIC_PBL
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label11.Location = new System.Drawing.Point(215, 225);
+            this.label11.Location = new System.Drawing.Point(129, 150);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(17, 18);
+            this.label11.Size = new System.Drawing.Size(11, 12);
             this.label11.TabIndex = 49;
             this.label11.Text = "：";
             // 
@@ -352,9 +379,10 @@ namespace OIC_PBL
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label12.Location = new System.Drawing.Point(215, 201);
+            this.label12.Location = new System.Drawing.Point(129, 134);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 18);
+            this.label12.Size = new System.Drawing.Size(11, 12);
             this.label12.TabIndex = 48;
             this.label12.Text = "：";
             // 
@@ -362,9 +390,10 @@ namespace OIC_PBL
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label13.Location = new System.Drawing.Point(215, 175);
+            this.label13.Location = new System.Drawing.Point(129, 117);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(17, 18);
+            this.label13.Size = new System.Drawing.Size(11, 12);
             this.label13.TabIndex = 47;
             this.label13.Text = "：";
             // 
@@ -372,9 +401,10 @@ namespace OIC_PBL
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label14.Location = new System.Drawing.Point(215, 149);
+            this.label14.Location = new System.Drawing.Point(129, 99);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(17, 18);
+            this.label14.Size = new System.Drawing.Size(11, 12);
             this.label14.TabIndex = 46;
             this.label14.Text = "：";
             // 
@@ -382,9 +412,10 @@ namespace OIC_PBL
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label15.Location = new System.Drawing.Point(215, 122);
+            this.label15.Location = new System.Drawing.Point(129, 81);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 18);
+            this.label15.Size = new System.Drawing.Size(11, 12);
             this.label15.TabIndex = 45;
             this.label15.Text = "：";
             // 
@@ -392,9 +423,10 @@ namespace OIC_PBL
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label16.Location = new System.Drawing.Point(215, 95);
+            this.label16.Location = new System.Drawing.Point(129, 63);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(17, 18);
+            this.label16.Size = new System.Drawing.Size(11, 12);
             this.label16.TabIndex = 44;
             this.label16.Text = "：";
             // 
@@ -402,9 +434,10 @@ namespace OIC_PBL
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label17.Location = new System.Drawing.Point(215, 66);
+            this.label17.Location = new System.Drawing.Point(129, 44);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 18);
+            this.label17.Size = new System.Drawing.Size(11, 12);
             this.label17.TabIndex = 43;
             this.label17.Text = "：";
             // 
@@ -412,18 +445,19 @@ namespace OIC_PBL
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label18.Location = new System.Drawing.Point(215, 38);
+            this.label18.Location = new System.Drawing.Point(129, 25);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 18);
+            this.label18.Size = new System.Drawing.Size(11, 12);
             this.label18.TabIndex = 42;
             this.label18.Text = "：";
             // 
             // _9詳細閲覧画面
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -458,6 +492,7 @@ namespace OIC_PBL
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "_9詳細閲覧画面";
             this.Text = "_9詳細閲覧画面";
             this.ResumeLayout(false);
