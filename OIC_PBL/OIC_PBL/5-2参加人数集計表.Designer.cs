@@ -47,12 +47,14 @@
             // 
             // 戻る
             // 
+            this.戻る.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.戻る.AutoSize = true;
+            this.戻る.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.戻る.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.戻る.Location = new System.Drawing.Point(87, 289);
+            this.戻る.Location = new System.Drawing.Point(98, 725);
             this.戻る.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.戻る.Name = "戻る";
-            this.戻る.Size = new System.Drawing.Size(26, 12);
+            this.戻る.Size = new System.Drawing.Size(60, 27);
             this.戻る.TabIndex = 0;
             this.戻る.TabStop = true;
             this.戻る.Text = "戻る";
@@ -69,7 +71,7 @@
             this.年度});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.Location = new System.Drawing.Point(89, 40);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -108,10 +110,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(98, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 12);
+            this.label1.Size = new System.Drawing.Size(406, 27);
             this.label1.TabIndex = 2;
             this.label1.Text = "説明会参加者・参加学科集計リスト";
             // 
@@ -126,12 +129,12 @@
             this.二年,
             this.一年});
             this.dataGridView2.GridColor = System.Drawing.SystemColors.Window;
-            this.dataGridView2.Location = new System.Drawing.Point(89, 66);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView2.Location = new System.Drawing.Point(103, 203);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(434, 221);
+            this.dataGridView2.Size = new System.Drawing.Size(1523, 459);
             this.dataGridView2.TabIndex = 3;
             // 
             // 学科
@@ -179,7 +182,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.戻る);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "_5_2参加人数集計表";
             this.Text = "_5_2参加人数集計表";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
