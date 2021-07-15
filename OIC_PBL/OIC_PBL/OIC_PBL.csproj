@@ -226,6 +226,15 @@
     <EmbeddedResource Include="7閲覧画面.resx">
       <DependentUpon>7閲覧画面.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="8-1教員評価画面.resx">
+      <DependentUpon>8-1教員評価画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8-2評価確認画面.resx">
+      <DependentUpon>8-2評価確認画面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="9詳細閲覧画面.resx">
+      <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
+    </EmbeddedResource>
     <!--<<<<<<< HEAD
     <EmbeddedResource Include="9詳細閲覧画面.resx">
       <DependentUpon>9詳細閲覧画面.cs</DependentUpon>

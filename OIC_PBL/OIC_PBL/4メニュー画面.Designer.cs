@@ -42,9 +42,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label1.Location = new System.Drawing.Point(70, 89);
+            this.label1.Location = new System.Drawing.Point(52, 71);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(491, 203);
+            this.label1.Size = new System.Drawing.Size(1792, 903);
             this.label1.TabIndex = 4;
             // 
             // 一般教員用
@@ -58,10 +59,10 @@
             this.一般教員用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.一般教員用.Font = new System.Drawing.Font("MS UI Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.一般教員用.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.一般教員用.Location = new System.Drawing.Point(90, 120);
+            this.一般教員用.Location = new System.Drawing.Point(68, 96);
             this.一般教員用.Margin = new System.Windows.Forms.Padding(2);
             this.一般教員用.Name = "一般教員用";
-            this.一般教員用.Size = new System.Drawing.Size(205, 142);
+            this.一般教員用.Size = new System.Drawing.Size(1578, 855);
             this.一般教員用.TabIndex = 0;
             this.一般教員用.Text = "一般教員用\r\n\r\n";
             this.一般教員用.UseVisualStyleBackColor = false;
@@ -77,10 +78,10 @@
             this.上長用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.上長用.Font = new System.Drawing.Font("MS UI Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.上長用.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.上長用.Location = new System.Drawing.Point(319, 120);
+            this.上長用.Location = new System.Drawing.Point(239, 96);
             this.上長用.Margin = new System.Windows.Forms.Padding(2);
             this.上長用.Name = "上長用";
-            this.上長用.Size = new System.Drawing.Size(220, 142);
+            this.上長用.Size = new System.Drawing.Size(1589, 855);
             this.上長用.TabIndex = 1;
             this.上長用.Text = "上長用\r\n\r\n";
             this.上長用.UseVisualStyleBackColor = false;
@@ -93,9 +94,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TOP.AutoSize = true;
             this.TOP.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.TOP.Location = new System.Drawing.Point(60, 320);
+            this.TOP.Location = new System.Drawing.Point(45, 256);
+            this.TOP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TOP.Name = "TOP";
-            this.TOP.Size = new System.Drawing.Size(36, 15);
+            this.TOP.Size = new System.Drawing.Size(27, 12);
             this.TOP.TabIndex = 3;
             this.TOP.TabStop = true;
             this.TOP.Text = "TOP";
@@ -111,10 +113,10 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(108, 225);
+            this.label2.Location = new System.Drawing.Point(81, 180);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 14);
+            this.label2.Size = new System.Drawing.Size(133, 11);
             this.label2.TabIndex = 5;
             this.label2.Text = "検索・閲覧・編集・評価入力";
             // 
@@ -128,19 +130,19 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("MS UI Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(399, 225);
+            this.label3.Location = new System.Drawing.Point(299, 180);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 14);
+            this.label3.Size = new System.Drawing.Size(49, 11);
             this.label3.TabIndex = 6;
             this.label3.Text = "合否承認";
             // 
             // メニュー画面
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(640, 375);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TOP);
