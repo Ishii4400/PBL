@@ -38,30 +38,28 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.label1.Location = new System.Drawing.Point(70, 89);
+            this.label1.Location = new System.Drawing.Point(173, 173);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(491, 203);
+            this.label1.Size = new System.Drawing.Size(1490, 584);
             this.label1.TabIndex = 4;
             // 
             // 一般教員用
             // 
-            this.一般教員用.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.一般教員用.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.一般教員用.AutoSize = true;
             this.一般教員用.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.一般教員用.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.一般教員用.FlatAppearance.BorderSize = 0;
             this.一般教員用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.一般教員用.Font = new System.Drawing.Font("MS UI Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.一般教員用.Font = new System.Drawing.Font("MS UI Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.一般教員用.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.一般教員用.Location = new System.Drawing.Point(90, 120);
+            this.一般教員用.Location = new System.Drawing.Point(240, 256);
             this.一般教員用.Margin = new System.Windows.Forms.Padding(2);
             this.一般教員用.Name = "一般教員用";
-            this.一般教員用.Size = new System.Drawing.Size(205, 142);
+            this.一般教員用.Size = new System.Drawing.Size(628, 424);
             this.一般教員用.TabIndex = 0;
             this.一般教員用.Text = "一般教員用\r\n\r\n";
             this.一般教員用.UseVisualStyleBackColor = false;
@@ -69,18 +67,16 @@
             // 
             // 上長用
             // 
-            this.上長用.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.上長用.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.上長用.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.上長用.FlatAppearance.BorderSize = 0;
             this.上長用.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.上長用.Font = new System.Drawing.Font("MS UI Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.上長用.Font = new System.Drawing.Font("MS UI Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.上長用.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.上長用.Location = new System.Drawing.Point(319, 120);
+            this.上長用.Location = new System.Drawing.Point(986, 256);
             this.上長用.Margin = new System.Windows.Forms.Padding(2);
             this.上長用.Name = "上長用";
-            this.上長用.Size = new System.Drawing.Size(220, 142);
+            this.上長用.Size = new System.Drawing.Size(628, 424);
             this.上長用.TabIndex = 1;
             this.上長用.Text = "上長用\r\n\r\n";
             this.上長用.UseVisualStyleBackColor = false;
@@ -92,10 +88,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TOP.AutoSize = true;
+            this.TOP.Font = new System.Drawing.Font("MS UI Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.TOP.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.TOP.Location = new System.Drawing.Point(60, 320);
+            this.TOP.Location = new System.Drawing.Point(238, 924);
+            this.TOP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TOP.Name = "TOP";
-            this.TOP.Size = new System.Drawing.Size(36, 15);
+            this.TOP.Size = new System.Drawing.Size(77, 33);
             this.TOP.TabIndex = 3;
             this.TOP.TabStop = true;
             this.TOP.Text = "TOP";
@@ -103,44 +101,40 @@
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(108, 225);
+            this.label2.Location = new System.Drawing.Point(404, 534);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 14);
+            this.label2.Size = new System.Drawing.Size(324, 27);
             this.label2.TabIndex = 5;
             this.label2.Text = "検索・閲覧・編集・評価入力";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(399, 225);
+            this.label3.Location = new System.Drawing.Point(1240, 534);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 14);
+            this.label3.Size = new System.Drawing.Size(120, 27);
             this.label3.TabIndex = 6;
             this.label3.Text = "合否承認";
             // 
             // メニュー画面
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(640, 375);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TOP);
