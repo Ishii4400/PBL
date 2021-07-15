@@ -44,6 +44,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(138, 103);
@@ -55,6 +56,7 @@
             // 
             // radioButton1
             // 
+            this.radioButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton1.Location = new System.Drawing.Point(617, 223);
@@ -68,6 +70,7 @@
             // 
             // radioButton2
             // 
+            this.radioButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton2.Location = new System.Drawing.Point(617, 290);
@@ -81,6 +84,7 @@
             // 
             // radioButton3
             // 
+            this.radioButton3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton3.Location = new System.Drawing.Point(617, 357);
@@ -94,6 +98,7 @@
             // 
             // radioButton4
             // 
+            this.radioButton4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton4.Location = new System.Drawing.Point(617, 424);
@@ -107,6 +112,7 @@
             // 
             // radioButton5
             // 
+            this.radioButton5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton5.Location = new System.Drawing.Point(617, 500);
@@ -120,6 +126,7 @@
             // 
             // radioButton6
             // 
+            this.radioButton6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton6.AutoSize = true;
             this.radioButton6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton6.Location = new System.Drawing.Point(1131, 223);
@@ -133,6 +140,7 @@
             // 
             // radioButton7
             // 
+            this.radioButton7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton7.AutoSize = true;
             this.radioButton7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton7.Location = new System.Drawing.Point(1131, 290);
@@ -146,6 +154,7 @@
             // 
             // radioButton8
             // 
+            this.radioButton8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton8.AutoSize = true;
             this.radioButton8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton8.Location = new System.Drawing.Point(1131, 357);
@@ -159,6 +168,7 @@
             // 
             // radioButton9
             // 
+            this.radioButton9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton9.AutoSize = true;
             this.radioButton9.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton9.Location = new System.Drawing.Point(1131, 424);
@@ -172,6 +182,7 @@
             // 
             // radioButton10
             // 
+            this.radioButton10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton10.AutoSize = true;
             this.radioButton10.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.radioButton10.Location = new System.Drawing.Point(1131, 500);
@@ -185,6 +196,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
