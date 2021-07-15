@@ -29,6 +29,20 @@ namespace OIC_PBL
 
         private void _5_1検索画面_Load(object sender, EventArgs e)
         {
+            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox1.ItemHeight = 30;
+            comboBox2.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox2.ItemHeight = 30;
+            comboBox3.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox3.ItemHeight = 30;
+            comboBox3.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox4.ItemHeight = 30;
+            comboBox4.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox4.ItemHeight = 30;
+            comboBox5.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox5.ItemHeight = 30;
+            comboBox6.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox6.ItemHeight = 30;
 
         }
 
@@ -68,6 +82,26 @@ namespace OIC_PBL
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 入学金免除対象者checkBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
