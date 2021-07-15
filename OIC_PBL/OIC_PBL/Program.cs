@@ -17,7 +17,7 @@ namespace OIC_PBL
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new メニュー画面());
+            Application.Run(new _8_2評価確認画面());
 
         }
     }
