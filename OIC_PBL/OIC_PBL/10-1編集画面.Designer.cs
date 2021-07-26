@@ -70,6 +70,7 @@
             this.button2.TabIndex = 212;
             this.button2.Text = "確定";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
@@ -84,6 +85,7 @@
             this.button1.TabIndex = 211;
             this.button1.Text = "戻る";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // dataGridView1
             // 
@@ -158,6 +160,7 @@
             this.button3.TabIndex = 214;
             this.button3.Text = "再評価";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button4
             // 
@@ -172,6 +175,7 @@
             this.button4.TabIndex = 213;
             this.button4.Text = "再否承認";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // linkLabel1
             // 
@@ -184,6 +188,7 @@
             this.linkLabel1.TabIndex = 215;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "TOP";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // linkLabel2
             // 
@@ -196,6 +201,7 @@
             this.linkLabel2.TabIndex = 216;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "メニュー";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked_1);
             // 
             // textBox8
             // 

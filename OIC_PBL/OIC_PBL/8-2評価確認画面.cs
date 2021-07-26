@@ -64,12 +64,20 @@ namespace OIC_PBL
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //7へ
+            var form1 = new _7閲覧画面();
+            form1.Show();
 
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            //8－1へ
+            var form1 = new _8_1教員評価画面();
+            form1.Show();
 
+            this.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

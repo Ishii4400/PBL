@@ -106,6 +106,7 @@ namespace OIC_PBL
             // 
             // textBox12
             // 
+            this.textBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox12.BackColor = System.Drawing.SystemColors.Window;
             this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox12.Location = new System.Drawing.Point(403, 765);
@@ -116,6 +117,7 @@ namespace OIC_PBL
             // 
             // textBox11
             // 
+            this.textBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox11.BackColor = System.Drawing.SystemColors.Window;
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox11.Location = new System.Drawing.Point(403, 715);
@@ -126,6 +128,7 @@ namespace OIC_PBL
             // 
             // textBox8
             // 
+            this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox8.BackColor = System.Drawing.SystemColors.Window;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.Location = new System.Drawing.Point(403, 550);
@@ -136,6 +139,7 @@ namespace OIC_PBL
             // 
             // textBox7
             // 
+            this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox7.BackColor = System.Drawing.SystemColors.Window;
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox7.Location = new System.Drawing.Point(403, 495);
@@ -146,6 +150,7 @@ namespace OIC_PBL
             // 
             // textBox6
             // 
+            this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox6.BackColor = System.Drawing.SystemColors.Window;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.Location = new System.Drawing.Point(403, 442);
@@ -156,6 +161,7 @@ namespace OIC_PBL
             // 
             // textBox4
             // 
+            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox4.BackColor = System.Drawing.SystemColors.Window;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.Location = new System.Drawing.Point(403, 333);
@@ -166,6 +172,7 @@ namespace OIC_PBL
             // 
             // textBox3
             // 
+            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox3.BackColor = System.Drawing.SystemColors.Window;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Location = new System.Drawing.Point(403, 278);
@@ -187,7 +194,7 @@ namespace OIC_PBL
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Location = new System.Drawing.Point(403, 170);
@@ -266,6 +273,7 @@ namespace OIC_PBL
             // 
             // textBox13
             // 
+            this.textBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox13.BackColor = System.Drawing.SystemColors.Window;
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox13.Location = new System.Drawing.Point(402, 815);
@@ -285,6 +293,7 @@ namespace OIC_PBL
             this.linkLabel2.TabIndex = 231;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "メニュー";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked_1);
             // 
             // linkLabel1
             // 
@@ -297,6 +306,7 @@ namespace OIC_PBL
             this.linkLabel1.TabIndex = 230;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "TOP";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // linkLabel3
             // 
@@ -309,6 +319,7 @@ namespace OIC_PBL
             this.linkLabel3.TabIndex = 253;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "編集";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked_1);
             // 
             // linkLabel4
             // 
@@ -321,6 +332,7 @@ namespace OIC_PBL
             this.linkLabel4.TabIndex = 252;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "否承認";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked_1);
             // 
             // linkLabel5
             // 
@@ -333,6 +345,7 @@ namespace OIC_PBL
             this.linkLabel5.TabIndex = 254;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "閲覧";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_1);
             // 
             // _9詳細閲覧画面
             // 

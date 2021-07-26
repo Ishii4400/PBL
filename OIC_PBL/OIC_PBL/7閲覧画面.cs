@@ -63,5 +63,10 @@ namespace OIC_PBL
         {
 
         }
+
+        private void _7閲覧画面_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

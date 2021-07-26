@@ -21,47 +21,27 @@ namespace OIC_PBL
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //1へ遷移
-            var form1 = new Form1();
-            form1.Show();
-
-            this.Hide();
+            
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //4へ遷移
-            var メニュー画面 = new メニュー画面();
-            メニュー画面.Show();
-
-            this.Hide();
+            
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //6-1へ遷移
-            var _6_1上長承認画面 = new _6_1上長承認画面();
-            _6_1上長承認画面.Show();
-
-            this.Hide();
+            
         }
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //10-1へ遷移
-            var _10_1編集画面 = new _10_1編集画面();
-            _10_1編集画面.Show();
-
-            this.Hide();
+            
         }
 
         private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //7へ遷移
-            var _7閲覧画面 = new _7閲覧画面();
-            _7閲覧画面.Show();
-
-            this.Hide();
+            
         }
 
         private void _9詳細閲覧画面_Load(object sender, EventArgs e)
@@ -79,6 +59,51 @@ namespace OIC_PBL
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //1へ遷移
+            var form1 = new Form1();
+            form1.Show();
+
+            this.Hide();
+        }
+
+        private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //4へ遷移
+            var メニュー画面 = new メニュー画面();
+            メニュー画面.Show();
+
+            this.Hide();
+        }
+
+        private void linkLabel4_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //6-1へ遷移
+            var _6_1上長承認画面 = new _6_1上長承認画面();
+            _6_1上長承認画面.Show();
+
+            this.Hide();
+        }
+
+        private void linkLabel3_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //10-1へ遷移
+            var _10_1編集画面 = new _10_1編集画面();
+            _10_1編集画面.Show();
+
+            this.Hide();
+        }
+
+        private void linkLabel5_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //7へ遷移
+            var _7閲覧画面 = new _7閲覧画面();
+            _7閲覧画面.Show();
+
+            this.Hide();
         }
     }
 }
