@@ -47,9 +47,10 @@
             // 
             // TOP
             // 
+            this.TOP.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TOP.AutoSize = true;
             this.TOP.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.TOP.Location = new System.Drawing.Point(88, 290);
+            this.TOP.Location = new System.Drawing.Point(109, 941);
             this.TOP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TOP.Name = "TOP";
             this.TOP.Size = new System.Drawing.Size(27, 12);
@@ -60,9 +61,10 @@
             // 
             // メニュー
             // 
+            this.メニュー.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.メニュー.AutoSize = true;
             this.メニュー.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.メニュー.Location = new System.Drawing.Point(149, 290);
+            this.メニュー.Location = new System.Drawing.Point(341, 941);
             this.メニュー.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.メニュー.Name = "メニュー";
             this.メニュー.Size = new System.Drawing.Size(40, 12);
@@ -73,11 +75,12 @@
             // 
             // 詳細閲覧
             // 
+            this.詳細閲覧.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.詳細閲覧.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
-            this.詳細閲覧.Location = new System.Drawing.Point(301, 271);
-            this.詳細閲覧.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.詳細閲覧.Location = new System.Drawing.Point(1029, 923);
+            this.詳細閲覧.Margin = new System.Windows.Forms.Padding(2);
             this.詳細閲覧.Name = "詳細閲覧";
             this.詳細閲覧.Size = new System.Drawing.Size(80, 30);
             this.詳細閲覧.TabIndex = 2;
@@ -87,11 +90,12 @@
             // 
             // 否認
             // 
+            this.否認.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.否認.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.否認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.否認.ForeColor = System.Drawing.SystemColors.Window;
-            this.否認.Location = new System.Drawing.Point(398, 271);
-            this.否認.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.否認.Location = new System.Drawing.Point(1367, 923);
+            this.否認.Margin = new System.Windows.Forms.Padding(2);
             this.否認.Name = "否認";
             this.否認.Size = new System.Drawing.Size(80, 30);
             this.否認.TabIndex = 3;
@@ -101,11 +105,12 @@
             // 
             // 承認
             // 
+            this.承認.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.承認.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.承認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.承認.ForeColor = System.Drawing.SystemColors.Window;
-            this.承認.Location = new System.Drawing.Point(494, 271);
-            this.承認.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.承認.Location = new System.Drawing.Point(1691, 923);
+            this.承認.Margin = new System.Windows.Forms.Padding(2);
             this.承認.Name = "承認";
             this.承認.Size = new System.Drawing.Size(80, 30);
             this.承認.TabIndex = 4;
@@ -115,6 +120,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -125,12 +131,12 @@
             this.不合格理由,
             this.点数,
             this.合否});
-            this.dataGridView1.Location = new System.Drawing.Point(35, 61);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(54, 188);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(539, 206);
+            this.dataGridView1.Size = new System.Drawing.Size(1717, 695);
             this.dataGridView1.TabIndex = 8;
             // 
             // 日付
@@ -195,7 +201,7 @@
             this.Controls.Add(this.詳細閲覧);
             this.Controls.Add(this.メニュー);
             this.Controls.Add(this.TOP);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "_6_1上長承認画面";
             this.Text = "_6_1上長承認画面";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
