@@ -15,7 +15,6 @@ namespace OIC_PBL
         public _10_2編集確認画面()
         {
             InitializeComponent();
-            
             this.WindowState = FormWindowState.Maximized;
         }
 
