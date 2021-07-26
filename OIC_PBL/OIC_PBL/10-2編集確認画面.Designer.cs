@@ -142,6 +142,7 @@
             this.label2.Text = "参加者No.　　\r\n　\r\n入試パスNo.　　　   \r\n\r\n名前　　　　　　    \r\n\r\nフリガナ　　　　　    \r\n\r\n所属　　　　　　　\r\n\r\n年齢　　　" +
     "　　　　   \r\n\r\n学校名　　　　　　\r\n\r\n学科・学部　　　　  \r\n\r\n学年　　　　　　　\r\n\r\n入試対象年度　　　\r\n\r\n取得ポイント　　　　\r\n\r\n入" +
     "試免除対象者　　\r\n\r\n入学金免除対象者　";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button2
             // 

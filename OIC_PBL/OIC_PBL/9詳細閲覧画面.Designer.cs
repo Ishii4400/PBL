@@ -91,6 +91,7 @@ namespace OIC_PBL
             this.comboBox2.Sorted = true;
             this.comboBox2.TabIndex = 248;
             this.comboBox2.UseWaitCursor = true;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // comboBox1
             // 
@@ -278,7 +279,7 @@ namespace OIC_PBL
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.linkLabel2.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel2.Location = new System.Drawing.Point(227, 949);
+            this.linkLabel2.Location = new System.Drawing.Point(220, 950);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(81, 24);
             this.linkLabel2.TabIndex = 231;
@@ -290,7 +291,7 @@ namespace OIC_PBL
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.linkLabel1.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(107, 949);
+            this.linkLabel1.Location = new System.Drawing.Point(105, 950);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(56, 24);
             this.linkLabel1.TabIndex = 230;
@@ -302,7 +303,7 @@ namespace OIC_PBL
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.linkLabel3.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel3.Location = new System.Drawing.Point(516, 949);
+            this.linkLabel3.Location = new System.Drawing.Point(503, 950);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(58, 24);
             this.linkLabel3.TabIndex = 253;
@@ -314,7 +315,7 @@ namespace OIC_PBL
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.linkLabel4.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel4.Location = new System.Drawing.Point(368, 949);
+            this.linkLabel4.Location = new System.Drawing.Point(355, 950);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(82, 24);
             this.linkLabel4.TabIndex = 252;
@@ -326,7 +327,7 @@ namespace OIC_PBL
             this.linkLabel5.AutoSize = true;
             this.linkLabel5.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.linkLabel5.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel5.Location = new System.Drawing.Point(649, 949);
+            this.linkLabel5.Location = new System.Drawing.Point(636, 950);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(58, 24);
             this.linkLabel5.TabIndex = 254;

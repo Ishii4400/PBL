@@ -15,8 +15,10 @@ namespace OIC_PBL
         public _10_1編集画面()
         {
             InitializeComponent();
+
             this.WindowState = FormWindowState.Maximized;
         }
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {

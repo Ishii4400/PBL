@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _9詳細閲覧画面()
         {
             InitializeComponent();
+
             this.WindowState = FormWindowState.Maximized;
         }
 
@@ -73,6 +74,11 @@ namespace OIC_PBL
 
             comboBox3.DrawMode = DrawMode.OwnerDrawFixed;
             comboBox3.ItemHeight = 30;
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
