@@ -20,14 +20,14 @@ namespace OIC_PBL
         private void button1_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            _2_4コロナ対応画面2 f1 = new _2_4コロナ対応画面2();
+            _2_5コロナ対応画面3 f1 = new _2_5コロナ対応画面3();
             f1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            _2_5コロナ対応画面3 f2 = new _2_5コロナ対応画面3();
+            _2_2交通費確認画面1 f2 = new _2_2交通費確認画面1();
             f2.Show();
         }
 
