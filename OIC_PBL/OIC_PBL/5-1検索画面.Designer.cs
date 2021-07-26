@@ -357,6 +357,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox1.CausesValidation = false;
             this.comboBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox1.FormattingEnabled = true;
@@ -564,6 +565,7 @@
             // 
             // 本日の参加人数
             // 
+            this.本日の参加人数.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.本日の参加人数.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.本日の参加人数.FlatAppearance.BorderSize = 0;
             this.本日の参加人数.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

@@ -269,17 +269,14 @@ namespace OIC_PBL
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "_3_2参加者確認画面";
             this.Text = "_3_2参加者確認画面";
-            this.Load += new System.EventHandler(this._3_2参加者確認画面_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
-        private void _3_2参加者確認画面_Load(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         #endregion
 
