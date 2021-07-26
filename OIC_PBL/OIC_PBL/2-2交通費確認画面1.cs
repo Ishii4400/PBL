@@ -24,5 +24,12 @@ namespace OIC_PBL
             _2_3交通費確認画面2　f1 = new _2_3交通費確認画面2();
             f1.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Visible = false;
+            _2_1コロナ対応画面1 f1 = new _2_1コロナ対応画面1();
+            f1.Show();
+        }
     }
 }
