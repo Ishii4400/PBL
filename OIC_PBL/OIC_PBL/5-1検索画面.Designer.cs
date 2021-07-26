@@ -314,6 +314,7 @@
             // textBox6
             // 
             this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox6.Location = new System.Drawing.Point(359, 444);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Multiline = true;
@@ -324,6 +325,7 @@
             // textBox7
             // 
             this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox7.Location = new System.Drawing.Point(359, 504);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Multiline = true;
@@ -334,6 +336,7 @@
             // textBox8
             // 
             this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox8.Location = new System.Drawing.Point(1217, 147);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Multiline = true;
@@ -344,6 +347,7 @@
             // textBox9
             // 
             this.textBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox9.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox9.Location = new System.Drawing.Point(1217, 201);
             this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Multiline = true;
@@ -353,11 +357,16 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox1.CausesValidation = false;
             this.comboBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.ItemHeight = 27;
+            this.comboBox1.Items.AddRange(new object[] {
+            "高校生",
+            "大学生",
+            "高専生",
+            "社会人",
+            "その他"});
             this.comboBox1.Location = new System.Drawing.Point(359, 314);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.MaximumSize = new System.Drawing.Size(250, 0);
@@ -370,6 +379,7 @@
             // comboBox2
             // 
             this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "１年生",
@@ -380,12 +390,13 @@
             this.comboBox2.Location = new System.Drawing.Point(359, 560);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(130, 20);
+            this.comboBox2.Size = new System.Drawing.Size(130, 35);
             this.comboBox2.TabIndex = 26;
             // 
             // comboBox3
             // 
             this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "医療福祉事務学科",
@@ -405,13 +416,14 @@
             this.comboBox3.Location = new System.Drawing.Point(1217, 258);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(355, 20);
+            this.comboBox3.Size = new System.Drawing.Size(355, 35);
             this.comboBox3.TabIndex = 27;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // comboBox4
             // 
             this.comboBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "2",
@@ -437,12 +449,15 @@
             this.comboBox4.Location = new System.Drawing.Point(1217, 380);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(130, 20);
+            this.comboBox4.Size = new System.Drawing.Size(130, 35);
             this.comboBox4.TabIndex = 28;
             // 
             // comboBox5
             // 
             this.comboBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox5.BackColor = System.Drawing.SystemColors.Window;
+            this.comboBox5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.comboBox5.ForeColor = System.Drawing.Color.Black;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
             "ショートコース",
@@ -450,12 +465,13 @@
             this.comboBox5.Location = new System.Drawing.Point(1217, 314);
             this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(130, 20);
+            this.comboBox5.Size = new System.Drawing.Size(130, 35);
             this.comboBox5.TabIndex = 29;
             // 
             // comboBox6
             // 
             this.comboBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.Items.AddRange(new object[] {
             "2022年度",
@@ -485,12 +501,13 @@
             this.comboBox6.Location = new System.Drawing.Point(1217, 444);
             this.comboBox6.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(130, 20);
+            this.comboBox6.Size = new System.Drawing.Size(130, 35);
             this.comboBox6.TabIndex = 30;
             // 
             // 入試免除対象者checkBox
             // 
             this.入試免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.入試免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.入試免除対象者checkBox.Location = new System.Drawing.Point(1587, 482);
             this.入試免除対象者checkBox.Margin = new System.Windows.Forms.Padding(2);
             this.入試免除対象者checkBox.Name = "入試免除対象者checkBox";
@@ -502,6 +519,7 @@
             // 
             this.入学金免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.入学金免除対象者checkBox.AutoSize = true;
+            this.入学金免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.入学金免除対象者checkBox.Location = new System.Drawing.Point(1587, 582);
             this.入学金免除対象者checkBox.Margin = new System.Windows.Forms.Padding(2);
             this.入学金免除対象者checkBox.MaximumSize = new System.Drawing.Size(30, 30);
@@ -520,7 +538,7 @@
             this.検索.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.検索.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.検索.ForeColor = System.Drawing.SystemColors.Window;
-            this.検索.Location = new System.Drawing.Point(944, 636);
+            this.検索.Location = new System.Drawing.Point(909, 857);
             this.検索.Margin = new System.Windows.Forms.Padding(2);
             this.検索.Name = "検索";
             this.検索.Size = new System.Drawing.Size(150, 50);
@@ -535,7 +553,7 @@
             this.メニュー.AutoSize = true;
             this.メニュー.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.メニュー.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.メニュー.Location = new System.Drawing.Point(242, 707);
+            this.メニュー.Location = new System.Drawing.Point(231, 882);
             this.メニュー.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.メニュー.Name = "メニュー";
             this.メニュー.Size = new System.Drawing.Size(81, 24);
@@ -551,7 +569,7 @@
             this.本日の参加人数.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.本日の参加人数.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.本日の参加人数.ForeColor = System.Drawing.SystemColors.Window;
-            this.本日の参加人数.Location = new System.Drawing.Point(1545, 674);
+            this.本日の参加人数.Location = new System.Drawing.Point(1561, 856);
             this.本日の参加人数.Margin = new System.Windows.Forms.Padding(2);
             this.本日の参加人数.Name = "本日の参加人数";
             this.本日の参加人数.Size = new System.Drawing.Size(150, 50);
@@ -566,7 +584,7 @@
             this.TOP.AutoSize = true;
             this.TOP.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.TOP.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.TOP.Location = new System.Drawing.Point(94, 707);
+            this.TOP.Location = new System.Drawing.Point(83, 880);
             this.TOP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TOP.Name = "TOP";
             this.TOP.Size = new System.Drawing.Size(64, 27);
