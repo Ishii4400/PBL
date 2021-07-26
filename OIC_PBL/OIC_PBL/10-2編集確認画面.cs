@@ -15,7 +15,6 @@ namespace OIC_PBL
         public _10_2編集確認画面()
         {
             InitializeComponent();
-            
             this.WindowState = FormWindowState.Maximized;
         }
 
@@ -54,6 +53,11 @@ namespace OIC_PBL
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

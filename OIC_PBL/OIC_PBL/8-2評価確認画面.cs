@@ -15,6 +15,8 @@ namespace OIC_PBL
         public _8_2評価確認画面()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -66,6 +68,16 @@ namespace OIC_PBL
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _6_2承認確認画面()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void 編集_Click(object sender, EventArgs e)

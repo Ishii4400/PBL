@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _2_4コロナ対応画面2()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)

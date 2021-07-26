@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _3_3教員確認画面()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)

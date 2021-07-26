@@ -15,6 +15,9 @@ namespace OIC_PBL
         public _8_1教員評価画面()
         {
             InitializeComponent();
+
+           
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -75,6 +78,26 @@ namespace OIC_PBL
             _8_2評価確認画面.Show();
 
             this.Hide();
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton10_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton13_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

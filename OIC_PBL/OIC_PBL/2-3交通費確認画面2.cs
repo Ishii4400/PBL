@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _2_3交通費確認画面2()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
