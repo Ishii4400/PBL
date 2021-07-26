@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TOP = new System.Windows.Forms.LinkLabel();
             this.メニュー = new System.Windows.Forms.LinkLabel();
             this.エクスポート = new System.Windows.Forms.Button();
@@ -50,6 +50,7 @@
             // 
             // TOP
             // 
+            this.TOP.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TOP.AutoSize = true;
             this.TOP.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.TOP.LinkColor = System.Drawing.Color.DeepSkyBlue;
@@ -64,6 +65,7 @@
             // 
             // メニュー
             // 
+            this.メニュー.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.メニュー.AutoSize = true;
             this.メニュー.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.メニュー.LinkColor = System.Drawing.Color.DeepSkyBlue;
@@ -78,11 +80,12 @@
             // 
             // エクスポート
             // 
+            this.エクスポート.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.エクスポート.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.エクスポート.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.エクスポート.Font = new System.Drawing.Font("MS UI Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.エクスポート.ForeColor = System.Drawing.SystemColors.Window;
-            this.エクスポート.Location = new System.Drawing.Point(1026, 892);
+            this.エクスポート.Location = new System.Drawing.Point(1029, 929);
             this.エクスポート.Margin = new System.Windows.Forms.Padding(2);
             this.エクスポート.Name = "エクスポート";
             this.エクスポート.Size = new System.Drawing.Size(150, 50);
@@ -93,11 +96,12 @@
             // 
             // 編集
             // 
+            this.編集.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.編集.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.編集.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.編集.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.編集.ForeColor = System.Drawing.SystemColors.Window;
-            this.編集.Location = new System.Drawing.Point(1226, 892);
+            this.編集.Location = new System.Drawing.Point(1225, 927);
             this.編集.Margin = new System.Windows.Forms.Padding(2);
             this.編集.Name = "編集";
             this.編集.Size = new System.Drawing.Size(150, 50);
@@ -108,11 +112,12 @@
             // 
             // 詳細閲覧
             // 
+            this.詳細閲覧.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.詳細閲覧.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.詳細閲覧.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
-            this.詳細閲覧.Location = new System.Drawing.Point(1429, 892);
+            this.詳細閲覧.Location = new System.Drawing.Point(1427, 927);
             this.詳細閲覧.Margin = new System.Windows.Forms.Padding(2);
             this.詳細閲覧.Name = "詳細閲覧";
             this.詳細閲覧.Size = new System.Drawing.Size(150, 50);
@@ -127,7 +132,7 @@
             this.評価入力.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.評価入力.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.評価入力.ForeColor = System.Drawing.SystemColors.Window;
-            this.評価入力.Location = new System.Drawing.Point(1632, 892);
+            this.評価入力.Location = new System.Drawing.Point(1632, 927);
             this.評価入力.Margin = new System.Windows.Forms.Padding(2);
             this.評価入力.Name = "評価入力";
             this.評価入力.Size = new System.Drawing.Size(150, 50);
@@ -138,18 +143,18 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.参加者number,
@@ -173,7 +178,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.linkLabel1.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(429, 903);
+            this.linkLabel1.Location = new System.Drawing.Point(435, 903);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(60, 27);
