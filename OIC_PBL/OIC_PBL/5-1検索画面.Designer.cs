@@ -565,6 +565,7 @@
             // 
             // 本日の参加人数
             // 
+            this.本日の参加人数.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.本日の参加人数.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.本日の参加人数.FlatAppearance.BorderSize = 0;
             this.本日の参加人数.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
