@@ -15,6 +15,7 @@ namespace OIC_PBL
         public Form1()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
        

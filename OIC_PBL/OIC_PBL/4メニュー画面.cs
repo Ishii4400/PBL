@@ -18,6 +18,7 @@ namespace OIC_PBL
         public メニュー画面()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
 
         }
 

@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _6_1上長承認画面()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void TOP_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
