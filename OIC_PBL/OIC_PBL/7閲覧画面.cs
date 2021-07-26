@@ -63,5 +63,14 @@ namespace OIC_PBL
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            var _5_1検索画面 = new _5_1検索画面();
+            _5_1検索画面.Show();
+
+            this.Hide();
+        }
     }
 }
