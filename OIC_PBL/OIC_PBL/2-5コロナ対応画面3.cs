@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _2_5コロナ対応画面3()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

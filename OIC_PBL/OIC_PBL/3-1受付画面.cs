@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _3_1受付画面()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)

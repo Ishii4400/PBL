@@ -15,6 +15,7 @@ namespace OIC_PBL
         public _5_2参加人数集計表()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void 戻る_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
