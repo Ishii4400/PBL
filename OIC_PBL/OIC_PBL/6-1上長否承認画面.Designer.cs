@@ -35,6 +35,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TOP = new System.Windows.Forms.LinkLabel();
             this.メニュー = new System.Windows.Forms.LinkLabel();
             this.詳細閲覧 = new System.Windows.Forms.Button();
@@ -135,6 +136,14 @@
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.日付,
@@ -153,8 +162,8 @@
             // 
             // 日付
             // 
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.日付.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.日付.DefaultCellStyle = dataGridViewCellStyle3;
             this.日付.Frozen = true;
             this.日付.HeaderText = "日付";
             this.日付.MinimumWidth = 6;
@@ -163,8 +172,8 @@
             // 
             // 名前
             // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.名前.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.名前.DefaultCellStyle = dataGridViewCellStyle4;
             this.名前.Frozen = true;
             this.名前.HeaderText = "名前";
             this.名前.MinimumWidth = 6;
@@ -173,8 +182,8 @@
             // 
             // 参加学科
             // 
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.参加学科.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.参加学科.DefaultCellStyle = dataGridViewCellStyle5;
             this.参加学科.Frozen = true;
             this.参加学科.HeaderText = "参加学科";
             this.参加学科.MinimumWidth = 6;
@@ -183,8 +192,8 @@
             // 
             // 不合格理由
             // 
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.不合格理由.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.不合格理由.DefaultCellStyle = dataGridViewCellStyle6;
             this.不合格理由.Frozen = true;
             this.不合格理由.HeaderText = "不合格理由";
             this.不合格理由.MinimumWidth = 6;
@@ -193,16 +202,16 @@
             // 
             // 点数
             // 
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.点数.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.点数.DefaultCellStyle = dataGridViewCellStyle7;
             this.点数.HeaderText = "点数";
             this.点数.MinimumWidth = 6;
             this.点数.Name = "点数";
             // 
             // 合否
             // 
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.合否.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.合否.DefaultCellStyle = dataGridViewCellStyle8;
             this.合否.HeaderText = "合否";
             this.合否.MinimumWidth = 6;
             this.合否.Name = "合否";

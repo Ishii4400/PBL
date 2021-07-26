@@ -31,5 +31,20 @@ namespace OIC_PBL
             Form1 f2 = new Form1();
             f2.Show();
         }
+
+         private void _3_1受付画面_Load(object sender, EventArgs e)
+        {
+            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox1.ItemHeight = 30;
+
+            comboBox2.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox2.ItemHeight = 30;
+
+            comboBox3.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox3.ItemHeight = 30;
+
+            comboBox4.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox4.ItemHeight = 30;
+        }
     }
 }
