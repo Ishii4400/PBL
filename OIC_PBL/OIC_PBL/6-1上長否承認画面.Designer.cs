@@ -30,6 +30,12 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TOP = new System.Windows.Forms.LinkLabel();
             this.メニュー = new System.Windows.Forms.LinkLabel();
             this.詳細閲覧 = new System.Windows.Forms.Button();
@@ -49,11 +55,12 @@
             // 
             this.TOP.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TOP.AutoSize = true;
+            this.TOP.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.TOP.LinkColor = System.Drawing.Color.DeepSkyBlue;
             this.TOP.Location = new System.Drawing.Point(109, 941);
             this.TOP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TOP.Name = "TOP";
-            this.TOP.Size = new System.Drawing.Size(27, 12);
+            this.TOP.Size = new System.Drawing.Size(64, 27);
             this.TOP.TabIndex = 0;
             this.TOP.TabStop = true;
             this.TOP.Text = "TOP";
@@ -63,11 +70,12 @@
             // 
             this.メニュー.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.メニュー.AutoSize = true;
+            this.メニュー.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.メニュー.LinkColor = System.Drawing.Color.DeepSkyBlue;
             this.メニュー.Location = new System.Drawing.Point(341, 941);
             this.メニュー.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.メニュー.Name = "メニュー";
-            this.メニュー.Size = new System.Drawing.Size(40, 12);
+            this.メニュー.Size = new System.Drawing.Size(91, 27);
             this.メニュー.TabIndex = 1;
             this.メニュー.TabStop = true;
             this.メニュー.Text = "メニュー";
@@ -78,11 +86,12 @@
             this.詳細閲覧.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.詳細閲覧.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.詳細閲覧.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
-            this.詳細閲覧.Location = new System.Drawing.Point(1029, 923);
+            this.詳細閲覧.Location = new System.Drawing.Point(984, 923);
             this.詳細閲覧.Margin = new System.Windows.Forms.Padding(2);
             this.詳細閲覧.Name = "詳細閲覧";
-            this.詳細閲覧.Size = new System.Drawing.Size(80, 30);
+            this.詳細閲覧.Size = new System.Drawing.Size(150, 50);
             this.詳細閲覧.TabIndex = 2;
             this.詳細閲覧.Text = "詳細閲覧";
             this.詳細閲覧.UseVisualStyleBackColor = false;
@@ -93,11 +102,12 @@
             this.否認.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.否認.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.否認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.否認.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.否認.ForeColor = System.Drawing.SystemColors.Window;
-            this.否認.Location = new System.Drawing.Point(1367, 923);
+            this.否認.Location = new System.Drawing.Point(1302, 923);
             this.否認.Margin = new System.Windows.Forms.Padding(2);
             this.否認.Name = "否認";
-            this.否認.Size = new System.Drawing.Size(80, 30);
+            this.否認.Size = new System.Drawing.Size(150, 50);
             this.否認.TabIndex = 3;
             this.否認.Text = "否認";
             this.否認.UseVisualStyleBackColor = false;
@@ -108,11 +118,12 @@
             this.承認.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.承認.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.承認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.承認.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.承認.ForeColor = System.Drawing.SystemColors.Window;
-            this.承認.Location = new System.Drawing.Point(1691, 923);
+            this.承認.Location = new System.Drawing.Point(1607, 918);
             this.承認.Margin = new System.Windows.Forms.Padding(2);
             this.承認.Name = "承認";
-            this.承認.Size = new System.Drawing.Size(80, 30);
+            this.承認.Size = new System.Drawing.Size(150, 50);
             this.承認.TabIndex = 4;
             this.承認.Text = "承認";
             this.承認.UseVisualStyleBackColor = false;
@@ -120,9 +131,19 @@
             // 
             // dataGridView1
             // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.日付,
@@ -136,58 +157,64 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1717, 695);
+            this.dataGridView1.Size = new System.Drawing.Size(1703, 669);
             this.dataGridView1.TabIndex = 8;
             // 
             // 日付
             // 
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.日付.DefaultCellStyle = dataGridViewCellStyle3;
             this.日付.Frozen = true;
             this.日付.HeaderText = "日付";
             this.日付.MinimumWidth = 6;
             this.日付.Name = "日付";
-            this.日付.Width = 105;
+            this.日付.Width = 300;
             // 
             // 名前
             // 
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.名前.DefaultCellStyle = dataGridViewCellStyle4;
             this.名前.Frozen = true;
             this.名前.HeaderText = "名前";
             this.名前.MinimumWidth = 6;
             this.名前.Name = "名前";
-            this.名前.Width = 120;
+            this.名前.Width = 300;
             // 
             // 参加学科
             // 
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.参加学科.DefaultCellStyle = dataGridViewCellStyle5;
             this.参加学科.Frozen = true;
             this.参加学科.HeaderText = "参加学科";
             this.参加学科.MinimumWidth = 6;
             this.参加学科.Name = "参加学科";
-            this.参加学科.Width = 150;
+            this.参加学科.Width = 300;
             // 
             // 不合格理由
             // 
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.不合格理由.DefaultCellStyle = dataGridViewCellStyle6;
             this.不合格理由.Frozen = true;
             this.不合格理由.HeaderText = "不合格理由";
             this.不合格理由.MinimumWidth = 6;
             this.不合格理由.Name = "不合格理由";
-            this.不合格理由.Width = 170;
+            this.不合格理由.Width = 550;
             // 
             // 点数
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.点数.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.点数.DefaultCellStyle = dataGridViewCellStyle7;
             this.点数.HeaderText = "点数";
             this.点数.MinimumWidth = 6;
             this.点数.Name = "点数";
-            this.点数.Width = 60;
             // 
             // 合否
             // 
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.合否.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.合否.DefaultCellStyle = dataGridViewCellStyle8;
             this.合否.HeaderText = "合否";
             this.合否.MinimumWidth = 6;
             this.合否.Name = "合否";
-            this.合否.Width = 60;
             // 
             // _6_1上長承認画面
             // 
