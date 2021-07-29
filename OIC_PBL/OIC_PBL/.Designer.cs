@@ -113,6 +113,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(1742, 604);
             this.label4.TabIndex = 4;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label6
             // 
@@ -121,7 +122,7 @@
             this.label6.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(1341, 748);
+            this.label6.Location = new System.Drawing.Point(1312, 748);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(101, 27);
@@ -136,7 +137,7 @@
             this.label5.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(482, 748);
+            this.label5.Location = new System.Drawing.Point(454, 746);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(101, 27);
