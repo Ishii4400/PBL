@@ -84,5 +84,10 @@ namespace OIC_PBL
            //this.history_masterTableAdapter.Fill(this.pBLDBDataSet.history_master);
 
         }
+
+        private void historymasterBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
