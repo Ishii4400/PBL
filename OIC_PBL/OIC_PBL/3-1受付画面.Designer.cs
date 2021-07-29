@@ -102,6 +102,12 @@
             this.comboBox1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "高校生",
+            "大学生",
+            "高専生",
+            "社会人",
+            "その他"});
             this.comboBox1.Location = new System.Drawing.Point(375, 417);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
