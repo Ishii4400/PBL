@@ -601,25 +601,10 @@
             this.comboBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "医療福祉事務学科",
-            "診療情報管理士学科",
-            "ホテル・ブライダル学科",
-            "経営アシスト学科",
-            "公務員学科",
-            "公務員速修学科",
-            "保育学科",
-            "情報スペシャリスト学科",
-            "情報システム学科",
-            "ゲームクリエイター学科",
-            "ゲームプログラマー学科",
-            "データマーケター学科",
-            "ネット・動画クリエイター学科",
-            "CGデザイン学科"});
             this.comboBox7.Location = new System.Drawing.Point(359, 444);
             this.comboBox7.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(355, 35);
+            this.comboBox7.Size = new System.Drawing.Size(385, 35);
             this.comboBox7.TabIndex = 39;
             // 
             // _5_1検索画面
