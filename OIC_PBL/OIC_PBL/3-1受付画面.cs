@@ -16,6 +16,9 @@ namespace OIC_PBL
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
+
+            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox1.ItemHeight = 30;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,14 +40,14 @@ namespace OIC_PBL
             comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
             comboBox1.ItemHeight = 30;
 
-            comboBox2.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox2.ItemHeight = 30;
 
-            comboBox3.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox3.ItemHeight = 30;
 
-            comboBox4.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox4.ItemHeight = 30;
+        }
+
+        private void _3_1受付画面_Load_1(object sender, EventArgs e)
+        {
+            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBox1.ItemHeight = 30;
         }
     }
 }

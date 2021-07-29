@@ -106,6 +106,7 @@ namespace OIC_PBL
             this.comboBox1.Sorted = true;
             this.comboBox1.TabIndex = 247;
             this.comboBox1.UseWaitCursor = true;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox12
             // 
