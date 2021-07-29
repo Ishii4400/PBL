@@ -604,7 +604,7 @@
             this.comboBox7.Location = new System.Drawing.Point(359, 444);
             this.comboBox7.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(355, 35);
+            this.comboBox7.Size = new System.Drawing.Size(385, 35);
             this.comboBox7.TabIndex = 39;
             // 
             // _5_1検索画面
