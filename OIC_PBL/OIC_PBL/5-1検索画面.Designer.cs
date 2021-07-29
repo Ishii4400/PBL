@@ -482,6 +482,7 @@
             // 入試免除対象者checkBox
             // 
             this.入試免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.入試免除対象者checkBox.Appearance = System.Windows.Forms.Appearance.Button;
             this.入試免除対象者checkBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.入試免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.入試免除対象者checkBox.ForeColor = System.Drawing.SystemColors.Window;
@@ -495,6 +496,7 @@
             // 入学金免除対象者checkBox
             // 
             this.入学金免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.入学金免除対象者checkBox.Appearance = System.Windows.Forms.Appearance.Button;
             this.入学金免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.入学金免除対象者checkBox.Location = new System.Drawing.Point(1540, 567);
             this.入学金免除対象者checkBox.Margin = new System.Windows.Forms.Padding(2);
