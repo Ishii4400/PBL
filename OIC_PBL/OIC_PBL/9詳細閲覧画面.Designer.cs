@@ -73,10 +73,11 @@ namespace OIC_PBL
             // comboBox3
             // 
             this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(403, 659);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(200, 20);
+            this.comboBox3.Size = new System.Drawing.Size(200, 35);
             this.comboBox3.Sorted = true;
             this.comboBox3.TabIndex = 249;
             this.comboBox3.UseWaitCursor = true;
@@ -84,10 +85,11 @@ namespace OIC_PBL
             // comboBox2
             // 
             this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(403, 605);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(200, 20);
+            this.comboBox2.Size = new System.Drawing.Size(200, 35);
             this.comboBox2.Sorted = true;
             this.comboBox2.TabIndex = 248;
             this.comboBox2.UseWaitCursor = true;
@@ -96,10 +98,11 @@ namespace OIC_PBL
             // comboBox1
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(403, 388);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 20);
+            this.comboBox1.Size = new System.Drawing.Size(200, 35);
             this.comboBox1.Sorted = true;
             this.comboBox1.TabIndex = 247;
             this.comboBox1.UseWaitCursor = true;
@@ -131,6 +134,7 @@ namespace OIC_PBL
             this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox8.BackColor = System.Drawing.SystemColors.Window;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox8.Location = new System.Drawing.Point(403, 550);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
@@ -142,6 +146,7 @@ namespace OIC_PBL
             this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox7.BackColor = System.Drawing.SystemColors.Window;
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox7.Location = new System.Drawing.Point(403, 495);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
@@ -153,6 +158,7 @@ namespace OIC_PBL
             this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox6.BackColor = System.Drawing.SystemColors.Window;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox6.Location = new System.Drawing.Point(403, 442);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -164,6 +170,7 @@ namespace OIC_PBL
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox4.BackColor = System.Drawing.SystemColors.Window;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox4.Location = new System.Drawing.Point(403, 333);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
@@ -175,6 +182,7 @@ namespace OIC_PBL
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox3.BackColor = System.Drawing.SystemColors.Window;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox3.Location = new System.Drawing.Point(403, 278);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -186,6 +194,7 @@ namespace OIC_PBL
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox2.BackColor = System.Drawing.SystemColors.Window;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox2.Location = new System.Drawing.Point(403, 223);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -197,6 +206,7 @@ namespace OIC_PBL
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox1.Location = new System.Drawing.Point(403, 170);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
