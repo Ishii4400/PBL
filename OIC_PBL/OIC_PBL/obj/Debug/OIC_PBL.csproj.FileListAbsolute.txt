@@ -93,4 +93,9 @@ C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._3_3教員確�
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._8_1教員評価画面.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._8_2評価確認画面.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._3_4受付番号表示画面.resources
+<<<<<<< HEAD
+C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.ResolveComReference.cache
+C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._3_4受付番号表示画面.resources
+=======
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.ResolveComReference.cache
+>>>>>>> 0431e30bbee56c0fef1de91764eeab6d6f01bc63
