@@ -101,5 +101,10 @@ namespace OIC_PBL
 
             comboBox3.SelectedIndex = 0;
         }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

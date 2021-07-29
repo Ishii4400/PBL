@@ -108,7 +108,7 @@
             "高専生",
             "社会人",
             "その他"});
-            this.comboBox1.Location = new System.Drawing.Point(375, 417);
+            this.comboBox1.Location = new System.Drawing.Point(375, 402);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(308, 35);
@@ -325,7 +325,7 @@
             this.comboBox3.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(385, 729);
+            this.comboBox3.Location = new System.Drawing.Point(375, 729);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(308, 35);
@@ -342,7 +342,7 @@
             "3回目",
             "4回目",
             "その他"});
-            this.comboBox4.Location = new System.Drawing.Point(385, 808);
+            this.comboBox4.Location = new System.Drawing.Point(375, 808);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(314, 35);
