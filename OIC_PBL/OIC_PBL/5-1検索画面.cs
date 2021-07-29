@@ -39,13 +39,13 @@ namespace OIC_PBL
 
             var source = new AutoCompleteStringCollection();
 
-            string constr = @"Data Source=LAPTOP-4CBL2ODE\SQLEXPRESS;Initial Catalog=test;Connect Timeout=60;Persist Security Info=True;User ID=sa;Password=saPassword";
+            string constr = @"Data Source=LAPTOP-JG8J4QGP\SQLEXPRESS ;Initial Catalog=test;Connect Timeout=60;Persist Security Info=True;User ID=sa;Password=1111";
 
             SqlConnection con = new SqlConnection(constr);
             con.Open();
             try
             {
-                string sqlstr = "use OIC;" +
+                string sqlstr = "use PBLDB;" +
                     "select 学校名 from school_master";
                 SqlCommand com = new SqlCommand(sqlstr, con);
                 SqlDataReader sdr = com.ExecuteReader();
@@ -73,7 +73,7 @@ namespace OIC_PBL
             con1.Open();
             try
             {
-                string sqlstr1 = "use OIC;" +
+                string sqlstr1 = "use PBLDB;" +
                     "select 学科名 from dep_master";
                 SqlCommand com1 = new SqlCommand(sqlstr1, con1);
                 SqlDataReader sdr1 = com1.ExecuteReader();
