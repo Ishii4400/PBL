@@ -18,9 +18,6 @@ namespace OIC_PBL
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
-
-            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox1.ItemHeight = 30;
         }
 
         private void button1_Click(object sender, EventArgs e)
