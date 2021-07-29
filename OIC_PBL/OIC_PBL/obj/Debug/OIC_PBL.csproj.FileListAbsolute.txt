@@ -28,3 +28,4 @@ C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC
 C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileInputs.cache
 C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.exe
 C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.pdb
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csprojAssemblyReference.cache

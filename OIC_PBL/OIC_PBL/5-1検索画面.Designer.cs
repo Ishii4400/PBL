@@ -49,7 +49,6 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -67,6 +66,7 @@
             this.TOP = new System.Windows.Forms.LinkLabel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // 日付
@@ -311,17 +311,6 @@
             this.textBox5.Size = new System.Drawing.Size(130, 35);
             this.textBox5.TabIndex = 20;
             // 
-            // textBox6
-            // 
-            this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox6.Location = new System.Drawing.Point(359, 444);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(385, 35);
-            this.textBox6.TabIndex = 21;
-            // 
             // textBox7
             // 
             this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -399,21 +388,6 @@
             this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "医療福祉事務学科",
-            "診療情報管理士学科",
-            "ホテル・ブライダル学科",
-            "経営アシスト学科",
-            "公務員学科",
-            "公務員速修学科",
-            "保育学科",
-            "情報スペシャリスト学科",
-            "情報システム学科",
-            "ゲームクリエイター学科",
-            "ゲームプログラマー学科",
-            "データマーケター学科",
-            "ネット・動画クリエイター学科",
-            "CGデザイン学科"});
             this.comboBox3.Location = new System.Drawing.Point(1217, 258);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
@@ -622,12 +596,39 @@
             this.label1.TabIndex = 38;
             this.label1.Text = "歳";
             // 
+            // comboBox7
+            // 
+            this.comboBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "医療福祉事務学科",
+            "診療情報管理士学科",
+            "ホテル・ブライダル学科",
+            "経営アシスト学科",
+            "公務員学科",
+            "公務員速修学科",
+            "保育学科",
+            "情報スペシャリスト学科",
+            "情報システム学科",
+            "ゲームクリエイター学科",
+            "ゲームプログラマー学科",
+            "データマーケター学科",
+            "ネット・動画クリエイター学科",
+            "CGデザイン学科"});
+            this.comboBox7.Location = new System.Drawing.Point(359, 444);
+            this.comboBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(355, 35);
+            this.comboBox7.TabIndex = 39;
+            // 
             // _5_1検索画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.comboBox7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.TOP);
@@ -645,7 +646,6 @@
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -699,7 +699,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
@@ -717,5 +716,6 @@
         public System.Windows.Forms.DateTimePicker dateTimePicker1;
         public System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox7;
     }
 }

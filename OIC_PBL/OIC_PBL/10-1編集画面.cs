@@ -62,14 +62,7 @@ namespace OIC_PBL
 
         private void _10_1編集画面_Load(object sender, EventArgs e)
         {
-            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox1.ItemHeight=30;
-
-            comboBox2.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox2.ItemHeight = 30;
-
-            comboBox3.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox3.ItemHeight = 30;
+          
         }
 
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
