@@ -117,7 +117,6 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox1.Location = new System.Drawing.Point(368, 156);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -129,7 +128,6 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox2.Location = new System.Drawing.Point(375, 281);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
@@ -351,7 +349,6 @@
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox5.Location = new System.Drawing.Point(1262, 277);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
@@ -363,7 +360,6 @@
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox6.Location = new System.Drawing.Point(1435, 277);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -375,7 +371,6 @@
             // textBox7
             // 
             this.textBox7.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox7.Location = new System.Drawing.Point(1265, 408);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
@@ -387,7 +382,6 @@
             // textBox8
             // 
             this.textBox8.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox8.Location = new System.Drawing.Point(1265, 500);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
