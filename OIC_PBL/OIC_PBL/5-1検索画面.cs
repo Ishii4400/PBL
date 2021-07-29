@@ -31,6 +31,12 @@ namespace OIC_PBL
 
         private void _5_1検索画面_Load(object sender, EventArgs e)
         {
+            入試免除対象者checkBox.Width = 33;
+            入試免除対象者checkBox.Height = 33;
+
+            入学金免除対象者checkBox.Width = 33;
+            入学金免除対象者checkBox.Height = 33;
+
             var source = new AutoCompleteStringCollection();
 
             string constr = @"Data Source=LAPTOP-4CBL2ODE\SQLEXPRESS;Initial Catalog=test;Connect Timeout=60;Persist Security Info=True;User ID=sa;Password=saPassword";

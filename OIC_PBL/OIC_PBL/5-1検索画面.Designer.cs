@@ -482,7 +482,6 @@
             // 入試免除対象者checkBox
             // 
             this.入試免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.入試免除対象者checkBox.Appearance = System.Windows.Forms.Appearance.Button;
             this.入試免除対象者checkBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.入試免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.入試免除対象者checkBox.ForeColor = System.Drawing.SystemColors.Window;
@@ -496,15 +495,11 @@
             // 入学金免除対象者checkBox
             // 
             this.入学金免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.入学金免除対象者checkBox.Appearance = System.Windows.Forms.Appearance.Button;
-            this.入学金免除対象者checkBox.AutoSize = true;
             this.入学金免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.入学金免除対象者checkBox.Location = new System.Drawing.Point(1540, 567);
             this.入学金免除対象者checkBox.Margin = new System.Windows.Forms.Padding(2);
-            this.入学金免除対象者checkBox.MaximumSize = new System.Drawing.Size(30, 30);
-            this.入学金免除対象者checkBox.MinimumSize = new System.Drawing.Size(30, 30);
             this.入学金免除対象者checkBox.Name = "入学金免除対象者checkBox";
-            this.入学金免除対象者checkBox.Size = new System.Drawing.Size(30, 30);
+            this.入学金免除対象者checkBox.Size = new System.Drawing.Size(31, 33);
             this.入学金免除対象者checkBox.TabIndex = 32;
             this.入学金免除対象者checkBox.UseVisualStyleBackColor = true;
             this.入学金免除対象者checkBox.CheckedChanged += new System.EventHandler(this.入学金免除対象者checkBox_CheckedChanged);
