@@ -58,6 +58,10 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -254,13 +258,13 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.linkLabel1.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(1454, 111);
+            this.linkLabel1.Location = new System.Drawing.Point(1446, 47);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(48, 24);
+            this.linkLabel1.Size = new System.Drawing.Size(56, 24);
             this.linkLabel1.TabIndex = 17;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Top";
+            this.linkLabel1.Text = "TOP";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // radioButton1
@@ -425,12 +429,56 @@
             this.label14.TabIndex = 29;
             this.label14.Text = "※初めてお越しの方は以下の項目を全て入力してください";
             // 
+            // label15
+            // 
+            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label15.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label15.Location = new System.Drawing.Point(11, 108);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(1879, 1);
+            this.label15.TabIndex = 30;
+            // 
+            // label16
+            // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label16.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label16.Location = new System.Drawing.Point(11, 326);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(1879, 1);
+            this.label16.TabIndex = 31;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label17.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label17.Location = new System.Drawing.Point(11, 683);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(1879, 1);
+            this.label17.TabIndex = 32;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label18.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label18.Location = new System.Drawing.Point(11, 195);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(1879, 1);
+            this.label18.TabIndex = 33;
+            // 
             // _3_1受付画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox8);
@@ -502,5 +550,9 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
     }
 }
