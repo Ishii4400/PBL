@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace OIC_PBL
 {
@@ -61,7 +62,11 @@ namespace OIC_PBL
 
         private void エクスポート_Click(object sender, EventArgs e)
         {
-
+            StreamWriter sw = new StreamWriter(@"D:\test1.csv");
+            string[] s1 = { "NEC", "SONY", "DELL" };
+            string s2 = string.Join(",", s1);
+            sw.WriteLine(s2);
+            sw.Close();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -76,7 +81,7 @@ namespace OIC_PBL
         private void _7閲覧画面_Load(object sender, EventArgs e)
         {
             // TODO: このコード行はデータを 'pBLDBDataSet.history_master' テーブルに読み込みます。必要に応じて移動、または削除をしてください。
-            this.history_masterTableAdapter.Fill(this.pBLDBDataSet.history_master);
+         //   this.history_masterTableAdapter.Fill(this.pBLDBDataSet.history_master);
 
         }
     }
