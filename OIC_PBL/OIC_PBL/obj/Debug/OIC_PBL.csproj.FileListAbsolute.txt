@@ -96,4 +96,9 @@ C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._3_4受付番�
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.ResolveComReference.cache
 C:\Users\81902\Documents\pbl\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._3_4受付番号表示画面.resources
 C:\Users\endo2\Desktop\PBL\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.ResolveComReference.cache
+<<<<<<< HEAD
+C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.ResolveComReference.cache
+C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL._3_4受付番号表示画面.resources
+=======
 >>>>>>> 0431e30bbee56c0fef1de91764eeab6d6f01bc63
+>>>>>>> 4ffcf922ac68b1272b8ddffa208d7dcf3e293073
