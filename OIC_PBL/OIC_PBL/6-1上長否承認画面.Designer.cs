@@ -88,7 +88,7 @@
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.詳細閲覧.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
-            this.詳細閲覧.Location = new System.Drawing.Point(984, 923);
+            this.詳細閲覧.Location = new System.Drawing.Point(1257, 930);
             this.詳細閲覧.Margin = new System.Windows.Forms.Padding(2);
             this.詳細閲覧.Name = "詳細閲覧";
             this.詳細閲覧.Size = new System.Drawing.Size(150, 50);
@@ -104,7 +104,7 @@
             this.否認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.否認.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.否認.ForeColor = System.Drawing.SystemColors.Window;
-            this.否認.Location = new System.Drawing.Point(1302, 923);
+            this.否認.Location = new System.Drawing.Point(1433, 930);
             this.否認.Margin = new System.Windows.Forms.Padding(2);
             this.否認.Name = "否認";
             this.否認.Size = new System.Drawing.Size(150, 50);
@@ -120,7 +120,7 @@
             this.承認.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.承認.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.承認.ForeColor = System.Drawing.SystemColors.Window;
-            this.承認.Location = new System.Drawing.Point(1607, 918);
+            this.承認.Location = new System.Drawing.Point(1607, 930);
             this.承認.Margin = new System.Windows.Forms.Padding(2);
             this.承認.Name = "承認";
             this.承認.Size = new System.Drawing.Size(150, 50);
@@ -157,7 +157,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1703, 669);
+            this.dataGridView1.Size = new System.Drawing.Size(1703, 683);
             this.dataGridView1.TabIndex = 8;
             // 
             // 日付
