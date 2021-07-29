@@ -166,9 +166,6 @@
     <Compile Include="9詳細閲覧画面.Designer.cs">
       <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
     </Compile>
-    <Compile Include="Excel\Application.cs" />
-    <Compile Include="Excel\Workbook.cs" />
-    <Compile Include="Excel\Workbooks.cs" />
     <Compile Include="１トップ画面.cs">
       <SubType>Form</SubType>
     </Compile>

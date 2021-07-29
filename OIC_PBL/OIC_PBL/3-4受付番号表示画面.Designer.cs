@@ -93,6 +93,7 @@
             this.Controls.Add(this.label1);
             this.Name = "_3_4受付番号表示画面";
             this.Text = "_3_4受付番号表示画面";
+            this.Load += new System.EventHandler(this._3_4受付番号表示画面_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

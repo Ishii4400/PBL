@@ -33,5 +33,16 @@ namespace OIC_PBL.Properties {
                 return ((string)(this["PBLDBConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-4CBL2ODE\\SQLEXPRESS;Initial Catalog=OIC;User ID=sa;Password=sa" +
+            "Password")]
+        public string OIC_test {
+            get {
+                return ((string)(this["OIC_test"]));
+            }
+        }
     }
 }

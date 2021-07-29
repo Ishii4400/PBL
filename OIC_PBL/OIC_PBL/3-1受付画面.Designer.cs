@@ -48,7 +48,6 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -62,6 +61,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -100,17 +100,19 @@
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.comboBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(375, 417);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(308, 20);
+            this.comboBox1.Size = new System.Drawing.Size(308, 35);
             this.comboBox1.TabIndex = 3;
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox1.Location = new System.Drawing.Point(368, 156);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
@@ -122,6 +124,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox2.Location = new System.Drawing.Point(375, 281);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Multiline = true;
@@ -132,6 +135,7 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.textBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox3.Location = new System.Drawing.Point(548, 281);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Multiline = true;
@@ -293,20 +297,10 @@
             this.radioButton2.Text = "ショートコース";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(375, 498);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(308, 30);
-            this.textBox4.TabIndex = 20;
-            // 
             // comboBox2
             // 
             this.comboBox2.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.comboBox2.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "1年生",
@@ -317,37 +311,24 @@
             this.comboBox2.Location = new System.Drawing.Point(375, 586);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(308, 20);
+            this.comboBox2.Size = new System.Drawing.Size(308, 35);
             this.comboBox2.TabIndex = 21;
             // 
             // comboBox3
             // 
             this.comboBox3.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.comboBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "医療福祉事務学科",
-            "診療情報管理士学科",
-            "ホテル・ブライダル学科",
-            "経営アシスト学科",
-            "公務員学科",
-            "公務員速修学科",
-            "保育学科",
-            "情報スペシャリスト学科",
-            "情報システム学科",
-            "ゲームクリエイター学科",
-            "ゲームプログラマー学科",
-            "データマーケター学科",
-            "ネット・動画クリエイター学科",
-            "CGデザイン学科"});
             this.comboBox3.Location = new System.Drawing.Point(385, 729);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(308, 20);
+            this.comboBox3.Size = new System.Drawing.Size(308, 35);
             this.comboBox3.TabIndex = 22;
             // 
             // comboBox4
             // 
             this.comboBox4.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.comboBox4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "1回目",
@@ -358,13 +339,14 @@
             this.comboBox4.Location = new System.Drawing.Point(385, 808);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(314, 20);
+            this.comboBox4.Size = new System.Drawing.Size(314, 35);
             this.comboBox4.TabIndex = 23;
             // 
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox5.Location = new System.Drawing.Point(1262, 277);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Multiline = true;
@@ -376,6 +358,7 @@
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox6.Location = new System.Drawing.Point(1435, 277);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Multiline = true;
@@ -387,6 +370,7 @@
             // 
             this.textBox7.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox7.Location = new System.Drawing.Point(1265, 408);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Multiline = true;
@@ -398,6 +382,7 @@
             // 
             this.textBox8.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBox8.Location = new System.Drawing.Point(1265, 500);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Multiline = true;
@@ -469,12 +454,24 @@
             this.label18.Size = new System.Drawing.Size(1879, 1);
             this.label18.TabIndex = 33;
             // 
+            // comboBox5
+            // 
+            this.comboBox5.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.comboBox5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(375, 499);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(308, 35);
+            this.comboBox5.TabIndex = 0;
+            // 
             // _3_1受付画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -488,7 +485,6 @@
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.linkLabel1);
@@ -541,7 +537,6 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
@@ -555,5 +550,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox comboBox5;
     }
 }
