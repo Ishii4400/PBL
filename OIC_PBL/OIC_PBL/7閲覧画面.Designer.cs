@@ -37,9 +37,9 @@
             this.評価入力 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pBLDBDataSet = new OIC_PBL.PBLDBDataSet();
+            //this.pBLDBDataSet = new OIC_PBL.PBLDBDataSet();
             this.historymasterBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.history_masterTableAdapter = new OIC_PBL.PBLDBDataSetTableAdapters.history_masterTableAdapter();
+            //this.history_masterTableAdapter = new OIC_PBL.PBLDBDataSetTableAdapters.history_masterTableAdapter();
             this.参加者NoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.日付DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.名前DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,7 +54,7 @@
             this.合否DataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.入試パスNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -196,17 +196,17 @@
             // 
             // pBLDBDataSet
             // 
-            this.pBLDBDataSet.DataSetName = "PBLDBDataSet";
-            this.pBLDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            //this.pBLDBDataSet.DataSetName = "PBLDBDataSet";
+            //this.pBLDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // historymasterBindingSource
             // 
             this.historymasterBindingSource.DataMember = "history_master";
-            this.historymasterBindingSource.DataSource = this.pBLDBDataSet;
+            //this.historymasterBindingSource.DataSource = this.pBLDBDataSet;
             // 
             // history_masterTableAdapter
             // 
-            this.history_masterTableAdapter.ClearBeforeFill = true;
+            //this.history_masterTableAdapter.ClearBeforeFill = true;
             // 
             // 参加者NoDataGridViewTextBoxColumn
             // 
@@ -305,7 +305,7 @@
             this.Text = "_7閲覧画面";
             this.Load += new System.EventHandler(this._7閲覧画面_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -322,9 +322,9 @@
         private System.Windows.Forms.Button 評価入力;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private PBLDBDataSet pBLDBDataSet;
+        //private PBLDBDataSet pBLDBDataSet;
         private System.Windows.Forms.BindingSource historymasterBindingSource;
-        private PBLDBDataSetTableAdapters.history_masterTableAdapter history_masterTableAdapter;
+        //private PBLDBDataSetTableAdapters.history_masterTableAdapter history_masterTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn 参加者NoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 日付DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 名前DataGridViewTextBoxColumn;

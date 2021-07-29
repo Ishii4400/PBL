@@ -81,7 +81,7 @@ namespace OIC_PBL
         private void _7閲覧画面_Load(object sender, EventArgs e)
         {
             // TODO: このコード行はデータを 'pBLDBDataSet.history_master' テーブルに読み込みます。必要に応じて移動、または削除をしてください。
-           this.history_masterTableAdapter.Fill(this.pBLDBDataSet.history_master);
+           //this.history_masterTableAdapter.Fill(this.pBLDBDataSet.history_master);
 
         }
     }
