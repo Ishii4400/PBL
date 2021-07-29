@@ -466,7 +466,7 @@
             this.comboBox5.Location = new System.Drawing.Point(1217, 314);
             this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(130, 35);
+            this.comboBox5.Size = new System.Drawing.Size(175, 35);
             this.comboBox5.TabIndex = 29;
             // 
             // comboBox6
