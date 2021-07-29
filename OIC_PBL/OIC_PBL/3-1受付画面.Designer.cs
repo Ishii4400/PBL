@@ -48,7 +48,6 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -62,6 +61,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -293,17 +293,6 @@
             this.radioButton2.Text = "ショートコース";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(375, 498);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(308, 30);
-            this.textBox4.TabIndex = 20;
-            // 
             // comboBox2
             // 
             this.comboBox2.BackColor = System.Drawing.SystemColors.MenuBar;
@@ -324,21 +313,6 @@
             // 
             this.comboBox3.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "医療福祉事務学科",
-            "診療情報管理士学科",
-            "ホテル・ブライダル学科",
-            "経営アシスト学科",
-            "公務員学科",
-            "公務員速修学科",
-            "保育学科",
-            "情報スペシャリスト学科",
-            "情報システム学科",
-            "ゲームクリエイター学科",
-            "ゲームプログラマー学科",
-            "データマーケター学科",
-            "ネット・動画クリエイター学科",
-            "CGデザイン学科"});
             this.comboBox3.Location = new System.Drawing.Point(385, 729);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
@@ -469,12 +443,23 @@
             this.label18.Size = new System.Drawing.Size(1879, 1);
             this.label18.TabIndex = 33;
             // 
+            // comboBox5
+            // 
+            this.comboBox5.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(375, 499);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(308, 20);
+            this.comboBox5.TabIndex = 0;
+            // 
             // _3_1受付画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -488,7 +473,6 @@
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.linkLabel1);
@@ -541,7 +525,6 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
@@ -555,5 +538,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox comboBox5;
     }
 }
