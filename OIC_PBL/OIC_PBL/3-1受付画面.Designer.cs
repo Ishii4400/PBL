@@ -108,7 +108,7 @@
             "高専生",
             "社会人",
             "その他"});
-            this.comboBox1.Location = new System.Drawing.Point(375, 402);
+            this.comboBox1.Location = new System.Drawing.Point(1267, 486);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(308, 35);
@@ -133,25 +133,25 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 30);
+            this.textBox2.Size = new System.Drawing.Size(242, 30);
             this.textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox3.Location = new System.Drawing.Point(548, 281);
+            this.textBox3.Location = new System.Drawing.Point(659, 280);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(135, 30);
+            this.textBox3.Size = new System.Drawing.Size(242, 30);
             this.textBox3.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.Location = new System.Drawing.Point(170, 410);
+            this.label5.Location = new System.Drawing.Point(1089, 490);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 27);
@@ -162,7 +162,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.Location = new System.Drawing.Point(170, 501);
+            this.label4.Location = new System.Drawing.Point(170, 413);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 27);
@@ -228,7 +228,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label11.Location = new System.Drawing.Point(1087, 500);
+            this.label11.Location = new System.Drawing.Point(169, 497);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(134, 27);
@@ -252,7 +252,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(1600, 895);
+            this.button1.Location = new System.Drawing.Point(1645, 908);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 50);
@@ -312,7 +312,7 @@
             "3年生",
             "4年生",
             "その他"});
-            this.comboBox2.Location = new System.Drawing.Point(375, 586);
+            this.comboBox2.Location = new System.Drawing.Point(384, 586);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(308, 35);
@@ -323,7 +323,7 @@
             this.comboBox3.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(375, 729);
+            this.comboBox3.Location = new System.Drawing.Point(385, 729);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(308, 35);
@@ -340,7 +340,7 @@
             "3回目",
             "4回目",
             "その他"});
-            this.comboBox4.Location = new System.Drawing.Point(375, 808);
+            this.comboBox4.Location = new System.Drawing.Point(385, 808);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(314, 35);
@@ -350,22 +350,22 @@
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox5.Location = new System.Drawing.Point(1262, 277);
+            this.textBox5.Location = new System.Drawing.Point(1261, 274);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(135, 30);
+            this.textBox5.Size = new System.Drawing.Size(242, 30);
             this.textBox5.TabIndex = 24;
             // 
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox6.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox6.Location = new System.Drawing.Point(1435, 277);
+            this.textBox6.Location = new System.Drawing.Point(1553, 274);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(135, 30);
+            this.textBox6.Size = new System.Drawing.Size(242, 30);
             this.textBox6.TabIndex = 25;
             // 
             // textBox7
@@ -383,11 +383,11 @@
             // 
             this.textBox8.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox8.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox8.Location = new System.Drawing.Point(1265, 500);
+            this.textBox8.Location = new System.Drawing.Point(383, 496);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(308, 30);
+            this.textBox8.Size = new System.Drawing.Size(595, 30);
             this.textBox8.TabIndex = 27;
             // 
             // label13
@@ -459,10 +459,10 @@
             this.comboBox5.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox5.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(375, 499);
+            this.comboBox5.Location = new System.Drawing.Point(383, 411);
             this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(308, 35);
+            this.comboBox5.Size = new System.Drawing.Size(595, 35);
             this.comboBox5.TabIndex = 0;
             // 
             // _3_1受付画面
