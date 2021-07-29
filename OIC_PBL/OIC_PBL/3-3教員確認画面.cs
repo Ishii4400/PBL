@@ -28,7 +28,7 @@ namespace OIC_PBL
         private void button2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            _2_1コロナ対応画面1 f2 = new _2_1コロナ対応画面1();
+            _3_4受付番号表示画面 f2 = new _3_4受付番号表示画面();
             f2.Show();
         }
     }

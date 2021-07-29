@@ -80,6 +80,7 @@
             this.label1.Size = new System.Drawing.Size(967, 265);
             this.label1.TabIndex = 3;
             this.label1.Text = "Opne Campas\r\nmanagement system";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
             // 

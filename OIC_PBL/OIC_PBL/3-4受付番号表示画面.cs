@@ -15,6 +15,26 @@ namespace OIC_PBL
         public _3_4受付番号表示画面()
         {
             InitializeComponent();
+
+            //オートインクリメント
+            int num = 1;
+            this.textBox1.Text = String.Format("{0:D3}", num);
+            num++;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //2-1へ遷移
+            var _2_1コロナ対応画面1 = new _2_1コロナ対応画面1();
+            _2_1コロナ対応画面1.Show();
+
+            this.Hide();
         }
     }
 }

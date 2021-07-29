@@ -38,5 +38,10 @@ namespace OIC_PBL
             Form1 f3 = new Form1();
             f3.Show();
         }
+
+        private void _2_1コロナ対応画面1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

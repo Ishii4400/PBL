@@ -17,7 +17,7 @@ namespace OIC_PBL
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new _8_1教員評価画面());
+            Application.Run(new _3_4受付番号表示画面());
 
         }
     }

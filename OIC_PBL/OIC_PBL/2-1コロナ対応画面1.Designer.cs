@@ -105,6 +105,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "_2_1コロナ対応画面1";
             this.Text = "_2_1コロナ対応画面1";
+            this.Load += new System.EventHandler(this._2_1コロナ対応画面1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
