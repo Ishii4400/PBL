@@ -37,24 +37,8 @@
             this.評価入力 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            //this.pBLDBDataSet = new OIC_PBL.PBLDBDataSet();
             this.historymasterBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            //this.history_masterTableAdapter = new OIC_PBL.PBLDBDataSetTableAdapters.history_masterTableAdapter();
-            this.参加者NoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.日付DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.名前DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.フリガナDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ポイントDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.所属DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.年齢DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.出身校コードDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.学年DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.参加コースDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.参加学科コードDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.合否DataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.入試パスNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,20 +155,6 @@
             // 
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.参加者NoDataGridViewTextBoxColumn,
-            this.日付DataGridViewTextBoxColumn,
-            this.名前DataGridViewTextBoxColumn,
-            this.フリガナDataGridViewTextBoxColumn,
-            this.ポイントDataGridViewTextBoxColumn,
-            this.所属DataGridViewTextBoxColumn,
-            this.年齢DataGridViewTextBoxColumn,
-            this.出身校コードDataGridViewTextBoxColumn,
-            this.学年DataGridViewTextBoxColumn,
-            this.参加コースDataGridViewTextBoxColumn,
-            this.参加学科コードDataGridViewTextBoxColumn,
-            this.合否DataGridViewCheckBoxColumn,
-            this.入試パスNoDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.historymasterBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(107, 82);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
@@ -194,97 +164,10 @@
             this.dataGridView1.Size = new System.Drawing.Size(1674, 707);
             this.dataGridView1.TabIndex = 9;
             // 
-            // pBLDBDataSet
-            // 
-            //this.pBLDBDataSet.DataSetName = "PBLDBDataSet";
-            //this.pBLDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // historymasterBindingSource
             // 
             this.historymasterBindingSource.DataMember = "history_master";
-            //this.historymasterBindingSource.DataSource = this.pBLDBDataSet;
-            // 
-            // history_masterTableAdapter
-            // 
-            //this.history_masterTableAdapter.ClearBeforeFill = true;
-            // 
-            // 参加者NoDataGridViewTextBoxColumn
-            // 
-            this.参加者NoDataGridViewTextBoxColumn.DataPropertyName = "参加者No";
-            this.参加者NoDataGridViewTextBoxColumn.HeaderText = "参加者No";
-            this.参加者NoDataGridViewTextBoxColumn.Name = "参加者NoDataGridViewTextBoxColumn";
-            // 
-            // 日付DataGridViewTextBoxColumn
-            // 
-            this.日付DataGridViewTextBoxColumn.DataPropertyName = "日付";
-            this.日付DataGridViewTextBoxColumn.HeaderText = "日付";
-            this.日付DataGridViewTextBoxColumn.Name = "日付DataGridViewTextBoxColumn";
-            // 
-            // 名前DataGridViewTextBoxColumn
-            // 
-            this.名前DataGridViewTextBoxColumn.DataPropertyName = "名前";
-            this.名前DataGridViewTextBoxColumn.HeaderText = "名前";
-            this.名前DataGridViewTextBoxColumn.Name = "名前DataGridViewTextBoxColumn";
-            // 
-            // フリガナDataGridViewTextBoxColumn
-            // 
-            this.フリガナDataGridViewTextBoxColumn.DataPropertyName = "フリガナ";
-            this.フリガナDataGridViewTextBoxColumn.HeaderText = "フリガナ";
-            this.フリガナDataGridViewTextBoxColumn.Name = "フリガナDataGridViewTextBoxColumn";
-            // 
-            // ポイントDataGridViewTextBoxColumn
-            // 
-            this.ポイントDataGridViewTextBoxColumn.DataPropertyName = "ポイント";
-            this.ポイントDataGridViewTextBoxColumn.HeaderText = "ポイント";
-            this.ポイントDataGridViewTextBoxColumn.Name = "ポイントDataGridViewTextBoxColumn";
-            // 
-            // 所属DataGridViewTextBoxColumn
-            // 
-            this.所属DataGridViewTextBoxColumn.DataPropertyName = "所属";
-            this.所属DataGridViewTextBoxColumn.HeaderText = "所属";
-            this.所属DataGridViewTextBoxColumn.Name = "所属DataGridViewTextBoxColumn";
-            // 
-            // 年齢DataGridViewTextBoxColumn
-            // 
-            this.年齢DataGridViewTextBoxColumn.DataPropertyName = "年齢";
-            this.年齢DataGridViewTextBoxColumn.HeaderText = "年齢";
-            this.年齢DataGridViewTextBoxColumn.Name = "年齢DataGridViewTextBoxColumn";
-            // 
-            // 出身校コードDataGridViewTextBoxColumn
-            // 
-            this.出身校コードDataGridViewTextBoxColumn.DataPropertyName = "出身校コード";
-            this.出身校コードDataGridViewTextBoxColumn.HeaderText = "出身校コード";
-            this.出身校コードDataGridViewTextBoxColumn.Name = "出身校コードDataGridViewTextBoxColumn";
-            // 
-            // 学年DataGridViewTextBoxColumn
-            // 
-            this.学年DataGridViewTextBoxColumn.DataPropertyName = "学年";
-            this.学年DataGridViewTextBoxColumn.HeaderText = "学年";
-            this.学年DataGridViewTextBoxColumn.Name = "学年DataGridViewTextBoxColumn";
-            // 
-            // 参加コースDataGridViewTextBoxColumn
-            // 
-            this.参加コースDataGridViewTextBoxColumn.DataPropertyName = "参加コース";
-            this.参加コースDataGridViewTextBoxColumn.HeaderText = "参加コース";
-            this.参加コースDataGridViewTextBoxColumn.Name = "参加コースDataGridViewTextBoxColumn";
-            // 
-            // 参加学科コードDataGridViewTextBoxColumn
-            // 
-            this.参加学科コードDataGridViewTextBoxColumn.DataPropertyName = "参加学科コード";
-            this.参加学科コードDataGridViewTextBoxColumn.HeaderText = "参加学科コード";
-            this.参加学科コードDataGridViewTextBoxColumn.Name = "参加学科コードDataGridViewTextBoxColumn";
-            // 
-            // 合否DataGridViewCheckBoxColumn
-            // 
-            this.合否DataGridViewCheckBoxColumn.DataPropertyName = "合否";
-            this.合否DataGridViewCheckBoxColumn.HeaderText = "合否";
-            this.合否DataGridViewCheckBoxColumn.Name = "合否DataGridViewCheckBoxColumn";
-            // 
-            // 入試パスNoDataGridViewTextBoxColumn
-            // 
-            this.入試パスNoDataGridViewTextBoxColumn.DataPropertyName = "入試パスNo";
-            this.入試パスNoDataGridViewTextBoxColumn.HeaderText = "入試パスNo";
-            this.入試パスNoDataGridViewTextBoxColumn.Name = "入試パスNoDataGridViewTextBoxColumn";
+            this.historymasterBindingSource.CurrentChanged += new System.EventHandler(this.historymasterBindingSource_CurrentChanged);
             // 
             // _7閲覧画面
             // 
@@ -305,7 +188,6 @@
             this.Text = "_7閲覧画面";
             this.Load += new System.EventHandler(this._7閲覧画面_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
