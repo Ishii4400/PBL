@@ -509,10 +509,10 @@
             // 
             this.入試免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.入試免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.入試免除対象者checkBox.Location = new System.Drawing.Point(1587, 482);
+            this.入試免除対象者checkBox.Location = new System.Drawing.Point(1540, 504);
             this.入試免除対象者checkBox.Margin = new System.Windows.Forms.Padding(2);
             this.入試免除対象者checkBox.Name = "入試免除対象者checkBox";
-            this.入試免除対象者checkBox.Size = new System.Drawing.Size(100, 100);
+            this.入試免除対象者checkBox.Size = new System.Drawing.Size(31, 33);
             this.入試免除対象者checkBox.TabIndex = 31;
             this.入試免除対象者checkBox.UseVisualStyleBackColor = true;
             // 
@@ -521,7 +521,7 @@
             this.入学金免除対象者checkBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.入学金免除対象者checkBox.AutoSize = true;
             this.入学金免除対象者checkBox.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.入学金免除対象者checkBox.Location = new System.Drawing.Point(1587, 582);
+            this.入学金免除対象者checkBox.Location = new System.Drawing.Point(1540, 560);
             this.入学金免除対象者checkBox.Margin = new System.Windows.Forms.Padding(2);
             this.入学金免除対象者checkBox.MaximumSize = new System.Drawing.Size(30, 30);
             this.入学金免除対象者checkBox.MinimumSize = new System.Drawing.Size(30, 30);
@@ -537,12 +537,12 @@
             this.検索.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.検索.FlatAppearance.BorderSize = 0;
             this.検索.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.検索.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.検索.Font = new System.Drawing.Font("MS UI Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.検索.ForeColor = System.Drawing.SystemColors.Window;
-            this.検索.Location = new System.Drawing.Point(909, 857);
+            this.検索.Location = new System.Drawing.Point(865, 750);
             this.検索.Margin = new System.Windows.Forms.Padding(2);
             this.検索.Name = "検索";
-            this.検索.Size = new System.Drawing.Size(150, 50);
+            this.検索.Size = new System.Drawing.Size(187, 82);
             this.検索.TabIndex = 33;
             this.検索.Text = "検索";
             this.検索.UseVisualStyleBackColor = false;

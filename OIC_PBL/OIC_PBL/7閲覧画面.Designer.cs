@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TOP = new System.Windows.Forms.LinkLabel();
             this.メニュー = new System.Windows.Forms.LinkLabel();
             this.エクスポート = new System.Windows.Forms.Button();
@@ -37,7 +37,6 @@
             this.詳細閲覧 = new System.Windows.Forms.Button();
             this.評価入力 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.参加者number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.名前 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.フリガナ = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,6 +44,7 @@
             this.学校名 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.入試対象年度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.入試免除 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,7 +85,7 @@
             this.エクスポート.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.エクスポート.Font = new System.Drawing.Font("MS UI Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.エクスポート.ForeColor = System.Drawing.SystemColors.Window;
-            this.エクスポート.Location = new System.Drawing.Point(1029, 929);
+            this.エクスポート.Location = new System.Drawing.Point(1083, 892);
             this.エクスポート.Margin = new System.Windows.Forms.Padding(2);
             this.エクスポート.Name = "エクスポート";
             this.エクスポート.Size = new System.Drawing.Size(150, 50);
@@ -101,7 +101,7 @@
             this.編集.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.編集.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.編集.ForeColor = System.Drawing.SystemColors.Window;
-            this.編集.Location = new System.Drawing.Point(1225, 927);
+            this.編集.Location = new System.Drawing.Point(1265, 892);
             this.編集.Margin = new System.Windows.Forms.Padding(2);
             this.編集.Name = "編集";
             this.編集.Size = new System.Drawing.Size(150, 50);
@@ -117,7 +117,7 @@
             this.詳細閲覧.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.詳細閲覧.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.詳細閲覧.ForeColor = System.Drawing.SystemColors.Window;
-            this.詳細閲覧.Location = new System.Drawing.Point(1427, 927);
+            this.詳細閲覧.Location = new System.Drawing.Point(1449, 892);
             this.詳細閲覧.Margin = new System.Windows.Forms.Padding(2);
             this.詳細閲覧.Name = "詳細閲覧";
             this.詳細閲覧.Size = new System.Drawing.Size(150, 50);
@@ -133,7 +133,7 @@
             this.評価入力.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.評価入力.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.評価入力.ForeColor = System.Drawing.SystemColors.Window;
-            this.評価入力.Location = new System.Drawing.Point(1632, 927);
+            this.評価入力.Location = new System.Drawing.Point(1632, 892);
             this.評価入力.Margin = new System.Windows.Forms.Padding(2);
             this.評価入力.Name = "評価入力";
             this.評価入力.Size = new System.Drawing.Size(150, 50);
@@ -144,18 +144,18 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.参加者number,
@@ -172,21 +172,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1674, 707);
             this.dataGridView1.TabIndex = 7;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(435, 903);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(60, 27);
-            this.linkLabel1.TabIndex = 8;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "戻る";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // 参加者number
             // 
@@ -237,6 +222,21 @@
             this.入試免除.Name = "入試免除";
             this.入試免除.Width = 200;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.DeepSkyBlue;
+            this.linkLabel1.Location = new System.Drawing.Point(435, 903);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(60, 27);
+            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "戻る";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // _7閲覧画面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -254,7 +254,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "_7閲覧画面";
             this.Text = "_7閲覧画面";
-            this.Load += new System.EventHandler(this._7閲覧画面_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
