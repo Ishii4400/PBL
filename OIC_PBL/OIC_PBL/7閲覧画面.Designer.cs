@@ -36,10 +36,28 @@
             this.詳細閲覧 = new System.Windows.Forms.Button();
             this.評価入力 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.historymasterBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pBLDBDataSet = new OIC_PBL.PBLDBDataSet();
+            this.historymasterBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.history_masterTableAdapter = new OIC_PBL.PBLDBDataSetTableAdapters.history_masterTableAdapter();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // TOP
@@ -151,23 +169,129 @@
             this.linkLabel1.Text = "戻る";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.DataSource = this.historymasterBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(107, 82);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 21;
-            this.dataGridView1.Size = new System.Drawing.Size(1674, 707);
-            this.dataGridView1.TabIndex = 9;
-            // 
             // historymasterBindingSource
             // 
             this.historymasterBindingSource.DataMember = "history_master";
             this.historymasterBindingSource.CurrentChanged += new System.EventHandler(this.historymasterBindingSource_CurrentChanged);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewCheckBoxColumn1,
+            this.dataGridViewTextBoxColumn12});
+            this.dataGridView1.DataSource = this.historymasterBindingSource1;
+            this.dataGridView1.Location = new System.Drawing.Point(262, 78);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 21;
+            this.dataGridView1.Size = new System.Drawing.Size(1353, 707);
+            this.dataGridView1.TabIndex = 9;
+            // 
+            // pBLDBDataSet
+            // 
+            this.pBLDBDataSet.DataSetName = "PBLDBDataSet";
+            this.pBLDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // historymasterBindingSource1
+            // 
+            this.historymasterBindingSource1.DataMember = "history_master";
+            this.historymasterBindingSource1.DataSource = this.pBLDBDataSet;
+            // 
+            // history_masterTableAdapter
+            // 
+            this.history_masterTableAdapter.ClearBeforeFill = true;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "参加者No";
+            this.dataGridViewTextBoxColumn1.HeaderText = "参加者No";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "日付";
+            this.dataGridViewTextBoxColumn2.HeaderText = "日付";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "名前";
+            this.dataGridViewTextBoxColumn3.HeaderText = "名前";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "フリガナ";
+            this.dataGridViewTextBoxColumn4.HeaderText = "フリガナ";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "ポイント";
+            this.dataGridViewTextBoxColumn5.HeaderText = "ポイント";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "所属";
+            this.dataGridViewTextBoxColumn6.HeaderText = "所属";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "年齢";
+            this.dataGridViewTextBoxColumn7.HeaderText = "年齢";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "出身校コード";
+            this.dataGridViewTextBoxColumn8.HeaderText = "出身校コード";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "学年";
+            this.dataGridViewTextBoxColumn9.HeaderText = "学年";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "参加コース";
+            this.dataGridViewTextBoxColumn10.HeaderText = "参加コース";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "参加学科コード";
+            this.dataGridViewTextBoxColumn11.HeaderText = "参加学科コード";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.DataPropertyName = "合否";
+            this.dataGridViewCheckBoxColumn1.HeaderText = "合否";
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "入試パスNo";
+            this.dataGridViewTextBoxColumn12.HeaderText = "入試パスNo";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             // 
             // _7閲覧画面
             // 
@@ -187,8 +311,10 @@
             this.Name = "_7閲覧画面";
             this.Text = "_7閲覧画面";
             this.Load += new System.EventHandler(this._7閲覧画面_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBLDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.historymasterBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,7 +329,6 @@
         private System.Windows.Forms.Button 詳細閲覧;
         private System.Windows.Forms.Button 評価入力;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         //private PBLDBDataSet pBLDBDataSet;
         private System.Windows.Forms.BindingSource historymasterBindingSource;
         //private PBLDBDataSetTableAdapters.history_masterTableAdapter history_masterTableAdapter;
@@ -220,5 +345,22 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn 参加学科コードDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewCheckBoxColumn 合否DataGridViewCheckBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 入試パスNoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private PBLDBDataSet pBLDBDataSet;
+        private System.Windows.Forms.BindingSource historymasterBindingSource1;
+        private PBLDBDataSetTableAdapters.history_masterTableAdapter history_masterTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
     }
 }

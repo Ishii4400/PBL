@@ -166,6 +166,11 @@
     <Compile Include="9詳細閲覧画面.Designer.cs">
       <DependentUpon>9詳細閲覧画面.cs</DependentUpon>
     </Compile>
+    <Compile Include="PBLDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PBLDBDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="１トップ画面.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +282,17 @@
     <EmbeddedResource Include="１トップ画面.resx">
       <DependentUpon>１トップ画面.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="PBLDBDataSet1.xsc">
+      <DependentUpon>PBLDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PBLDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PBLDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PBLDBDataSet1.xss">
+      <DependentUpon>PBLDBDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
