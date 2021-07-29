@@ -186,10 +186,12 @@
             this.合否DataGridViewCheckBoxColumn,
             this.入試パスNoDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.historymasterBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(297, 275);
+            this.dataGridView1.Location = new System.Drawing.Point(107, 82);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 21;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(1674, 707);
             this.dataGridView1.TabIndex = 9;
             // 
             // pBLDBDataSet
