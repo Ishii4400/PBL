@@ -39,17 +39,11 @@ namespace OIC_PBL
 
          private void _3_1受付画面_Load(object sender, EventArgs e)
         {
-            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox1.ItemHeight = 30;
 
         }
 
         private void _3_1受付画面_Load_1(object sender, EventArgs e)
         {
-            comboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            comboBox1.ItemHeight = 30;
-
-            
             var source = new AutoCompleteStringCollection();
 
             string constr = @"Data Source=LAPTOP-4CBL2ODE\SQLEXPRESS;Initial Catalog=test;Connect Timeout=60;Persist Security Info=True;User ID=sa;Password=saPassword";
