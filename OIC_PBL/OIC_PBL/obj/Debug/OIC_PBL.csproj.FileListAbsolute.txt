@@ -59,3 +59,4 @@ C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csproj.CoreCompileInputs.cache
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.exe
 C:\Users\haisd\OneDrive\ドキュメント\PBL\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.pdb
+C:\Users\nishi\OneDrive\デスクトップ\PBL_new\OIC_PBL\OIC_PBL\obj\Debug\OIC_PBL.csprojAssemblyReference.cache

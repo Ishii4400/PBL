@@ -35,8 +35,8 @@ namespace OIC_PBL
         private void _3_4受付番号表示画面_Load(object sender, EventArgs e)
         {
             //オートインクリメント
-            int num = 1;
-            this.textBox1.Text = String.Format("{0:D3}", num);
+            this.textBox1.Text = String.Format("{0:D3}", Program.num);
+            Program.num++;
         }
     }
 }
